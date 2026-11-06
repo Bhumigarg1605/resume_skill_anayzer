@@ -1,0 +1,797 @@
+[
+  {
+    "text": "Experienced Machine Learning Engineer proficient in Python, PyTorch, and Scikit-Learn for building predictive models.",
+    "entities": [
+      [
+        12,
+        28,
+        "SKILL"
+      ],
+      [
+        52,
+        58,
+        "SKILL"
+      ],
+      [
+        60,
+        67,
+        "SKILL"
+      ],
+      [
+        73,
+        85,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Designed and deployed distributed deep learning training pipelines using TensorFlow, Docker, and Kubernetes on AWS.",
+    "entities": [
+      [
+        34,
+        47,
+        "SKILL"
+      ],
+      [
+        73,
+        83,
+        "SKILL"
+      ],
+      [
+        85,
+        91,
+        "SKILL"
+      ],
+      [
+        97,
+        107,
+        "SKILL"
+      ],
+      [
+        111,
+        114,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Expertise in Natural Language Processing, Hugging Face Transformers, and Large Language Models for automated document processing.",
+    "entities": [
+      [
+        13,
+        40,
+        "SKILL"
+      ],
+      [
+        42,
+        54,
+        "SKILL"
+      ],
+      [
+        73,
+        94,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Developed real-time ETL data pipelines utilizing Apache Spark, Apache Kafka, and Apache Airflow.",
+    "entities": [
+      [
+        20,
+        23,
+        "SKILL"
+      ],
+      [
+        49,
+        61,
+        "SKILL"
+      ],
+      [
+        63,
+        75,
+        "SKILL"
+      ],
+      [
+        81,
+        95,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Constructed dimensional data warehouse models in PostgreSQL and Snowflake, writing complex SQL queries.",
+    "entities": [
+      [
+        49,
+        59,
+        "SKILL"
+      ],
+      [
+        64,
+        73,
+        "SKILL"
+      ],
+      [
+        91,
+        94,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Architected asynchronous microservices using FastAPI, Redis caching, and Docker containerization.",
+    "entities": [
+      [
+        25,
+        38,
+        "SKILL"
+      ],
+      [
+        45,
+        52,
+        "SKILL"
+      ],
+      [
+        54,
+        59,
+        "SKILL"
+      ],
+      [
+        73,
+        79,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Implemented modern responsive user interfaces using React, TypeScript, and Tailwind CSS with Redux Toolkit for state management.",
+    "entities": [
+      [
+        52,
+        57,
+        "SKILL"
+      ],
+      [
+        59,
+        69,
+        "SKILL"
+      ],
+      [
+        75,
+        87,
+        "SKILL"
+      ],
+      [
+        93,
+        98,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Applied statistical hypothesis testing, A/B testing, and exploratory data analysis on multi-terabyte datasets using Pandas and NumPy.",
+    "entities": [
+      [
+        20,
+        38,
+        "SKILL"
+      ],
+      [
+        40,
+        51,
+        "SKILL"
+      ],
+      [
+        57,
+        82,
+        "SKILL"
+      ],
+      [
+        116,
+        122,
+        "SKILL"
+      ],
+      [
+        127,
+        132,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Automated infrastructure provisioning and CI/CD pipelines using Terraform, GitHub Actions, and Jenkins on Google Cloud Platform.",
+    "entities": [
+      [
+        42,
+        47,
+        "SKILL"
+      ],
+      [
+        64,
+        73,
+        "SKILL"
+      ],
+      [
+        75,
+        89,
+        "SKILL"
+      ],
+      [
+        95,
+        102,
+        "SKILL"
+      ],
+      [
+        106,
+        127,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Solid background in Computer Vision, OpenCV, and object detection using PyTorch and TorchVision.",
+    "entities": [
+      [
+        20,
+        35,
+        "SKILL"
+      ],
+      [
+        72,
+        79,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Maintained production Linux servers, automated monitoring with Prometheus and Grafana, and wrote Bash scripts.",
+    "entities": [
+      [
+        22,
+        27,
+        "SKILL"
+      ],
+      [
+        63,
+        73,
+        "SKILL"
+      ],
+      [
+        78,
+        85,
+        "SKILL"
+      ],
+      [
+        97,
+        101,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Built scalable recommendation systems leveraging XGBoost, LightGBM, and feature engineering techniques.",
+    "entities": [
+      [
+        49,
+        56,
+        "SKILL"
+      ],
+      [
+        58,
+        66,
+        "SKILL"
+      ],
+      [
+        72,
+        91,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Created interactive executive dashboards using Tableau and Power BI connected to Google BigQuery.",
+    "entities": [
+      [
+        47,
+        54,
+        "SKILL"
+      ],
+      [
+        59,
+        67,
+        "SKILL"
+      ],
+      [
+        81,
+        96,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Implemented full-stack features using Python, Django, PostgreSQL, HTML5, and CSS3.",
+    "entities": [
+      [
+        38,
+        44,
+        "SKILL"
+      ],
+      [
+        46,
+        52,
+        "SKILL"
+      ],
+      [
+        54,
+        64,
+        "SKILL"
+      ],
+      [
+        66,
+        71,
+        "SKILL"
+      ],
+      [
+        77,
+        81,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Engineered RAG pipelines utilizing LangChain, Vector Databases, and OpenAI GPT APIs.",
+    "entities": [
+      [
+        35,
+        44,
+        "SKILL"
+      ],
+      [
+        46,
+        62,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Conducted rigorous unit testing with pytest and practiced test driven development in an Agile environment.",
+    "entities": [
+      [
+        19,
+        31,
+        "SKILL"
+      ],
+      [
+        37,
+        43,
+        "SKILL"
+      ],
+      [
+        88,
+        93,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Proficient in C++, algorithms, data structures, and object-oriented programming for high-performance computing.",
+    "entities": [
+      [
+        14,
+        17,
+        "SKILL"
+      ],
+      [
+        19,
+        29,
+        "SKILL"
+      ],
+      [
+        31,
+        46,
+        "SKILL"
+      ],
+      [
+        52,
+        79,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Configured Kafka event streams and Spark Streaming for real-time telemetry processing.",
+    "entities": [
+      [
+        11,
+        16,
+        "SKILL"
+      ],
+      [
+        35,
+        50,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Strong command of Git version control, pull requests, code reviews, and CI/CD workflows.",
+    "entities": [
+      [
+        18,
+        21,
+        "SKILL"
+      ],
+      [
+        72,
+        77,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Developed web applications using Node.js, Express, MongoDB, and GraphQL APIs.",
+    "entities": [
+      [
+        33,
+        40,
+        "SKILL"
+      ],
+      [
+        51,
+        58,
+        "SKILL"
+      ],
+      [
+        64,
+        71,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Executed time series forecasting models including ARIMA, Prophet, and LSTM neural networks.",
+    "entities": [
+      [
+        9,
+        32,
+        "SKILL"
+      ],
+      [
+        50,
+        55,
+        "SKILL"
+      ],
+      [
+        57,
+        64,
+        "SKILL"
+      ],
+      [
+        75,
+        90,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Optimized SQL query performance, created indexes, and restructured relational schemas in MySQL.",
+    "entities": [
+      [
+        10,
+        13,
+        "SKILL"
+      ],
+      [
+        89,
+        94,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Integrated cloud security practices, IAM roles, and secret management across Amazon Web Services and Azure.",
+    "entities": [
+      [
+        77,
+        96,
+        "SKILL"
+      ],
+      [
+        101,
+        106,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Supervised model evaluation, tracking experiments with MLflow, and hyperparameter tuning with Optuna.",
+    "entities": [
+      [
+        11,
+        27,
+        "SKILL"
+      ],
+      [
+        55,
+        61,
+        "SKILL"
+      ],
+      [
+        67,
+        88,
+        "SKILL"
+      ],
+      [
+        94,
+        100,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Built client-side single page applications with Vue.js, JavaScript, and Tailwind CSS.",
+    "entities": [
+      [
+        48,
+        54,
+        "SKILL"
+      ],
+      [
+        56,
+        66,
+        "SKILL"
+      ],
+      [
+        72,
+        84,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Designed and deployed serverless microservices using AWS Lambda and API Gateway.",
+    "entities": [
+      [
+        22,
+        32,
+        "SKILL"
+      ],
+      [
+        53,
+        63,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Led cross-functional teams adopting Scrum, Jira, and continuous integration methodologies.",
+    "entities": [
+      [
+        36,
+        41,
+        "SKILL"
+      ],
+      [
+        43,
+        47,
+        "SKILL"
+      ],
+      [
+        53,
+        75,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Leveraged dbt for data transformation and data modeling inside Snowflake lakehouses.",
+    "entities": [
+      [
+        10,
+        13,
+        "SKILL"
+      ],
+      [
+        42,
+        55,
+        "SKILL"
+      ],
+      [
+        63,
+        72,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Researched reinforcement learning algorithms and deep Q-networks using PyTorch.",
+    "entities": [
+      [
+        11,
+        33,
+        "SKILL"
+      ],
+      [
+        71,
+        78,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Skilled in Go, gRPC, and protocol buffers for high-throughput distributed systems.",
+    "entities": [
+      [
+        11,
+        13,
+        "SKILL"
+      ],
+      [
+        15,
+        19,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Implemented secure authentication with JWT and OAuth2 in FastAPI backend services.",
+    "entities": [
+      [
+        57,
+        64,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Constructed interactive analytical reports using Matplotlib, Seaborn, and Jupyter Notebooks.",
+    "entities": [
+      [
+        49,
+        59,
+        "SKILL"
+      ],
+      [
+        61,
+        68,
+        "SKILL"
+      ],
+      [
+        74,
+        91,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Administered Kubernetes clusters with Helm charts and automated zero-downtime rollouts.",
+    "entities": [
+      [
+        13,
+        23,
+        "SKILL"
+      ],
+      [
+        38,
+        42,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Experienced in Java, Spring Boot, and enterprise microservices architecture.",
+    "entities": [
+      [
+        15,
+        19,
+        "SKILL"
+      ],
+      [
+        21,
+        32,
+        "SKILL"
+      ],
+      [
+        49,
+        62,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Utilized SciPy and statsmodels for statistical modeling and econometric forecasting.",
+    "entities": [
+      [
+        9,
+        14,
+        "SKILL"
+      ],
+      [
+        35,
+        55,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Created front-end user workflows using Next.js and TypeScript connected to GraphQL backends.",
+    "entities": [
+      [
+        39,
+        46,
+        "SKILL"
+      ],
+      [
+        51,
+        61,
+        "SKILL"
+      ],
+      [
+        75,
+        82,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Trained convolutional neural networks for semantic image segmentation on custom datasets.",
+    "entities": [
+      [
+        22,
+        37,
+        "SKILL"
+      ],
+      [
+        51,
+        69,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Implemented data quality checks and automated pipelines using Apache Airflow and Python.",
+    "entities": [
+      [
+        62,
+        76,
+        "SKILL"
+      ],
+      [
+        81,
+        87,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Configured distributed caching layers with Redis and Memcached to reduce database load.",
+    "entities": [
+      [
+        43,
+        48,
+        "SKILL"
+      ],
+      [
+        73,
+        81,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Conducted A/B testing on user engagement metrics and calculated statistical significance with Python.",
+    "entities": [
+      [
+        10,
+        21,
+        "SKILL"
+      ],
+      [
+        94,
+        100,
+        "SKILL"
+      ]
+    ]
+  }
+]

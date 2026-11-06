@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local IDE configuration
+.vscode/
+.idea/

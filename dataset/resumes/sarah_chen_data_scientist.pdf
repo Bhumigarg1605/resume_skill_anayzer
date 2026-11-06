@@ -1,0 +1,59 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1819 >>
+stream
+BT
+/F1 10 Tf
+50 780 Td
+14 TL
+(Sarah Chen - Lead Data Scientist) Tj
+T* (sarah.chen@email.com | \(555\) 876-5432 | New York, NY | linkedin.com/in/sarahchen-ds) Tj
+T* (--------------------------------------------------) Tj
+T* (PROFESSIONAL SUMMARY:) Tj
+T* (Results-driven Data Scientist with 5 years of experience delivering actionable business insights through statistical modeling, exploratory data analysis, and predictive machine learning. Strong proficiency in Python, SQL, Pandas, Tableau, and hypothesis testing.) Tj
+T* (--------------------------------------------------) Tj
+T* (TECHNICAL SKILLS:) Tj
+T* (Statistical Analysis: Hypothesis Testing, A/B Testing, Statistics, Time Series Analysis, SciPy) Tj
+T* (Data Science & ML: Python, SQL, Pandas, NumPy, Scikit-Learn, Machine Learning, Data Visualization) Tj
+T* (BI & Tools: Tableau, Power BI, Matplotlib, Seaborn, Excel, Git, Google BigQuery) Tj
+T* (--------------------------------------------------) Tj
+T* (WORK EXPERIENCE:) Tj
+T* (Senior Data Scientist | FinMetrics Group \(2021 - Present\)) Tj
+T* (- Designed and implemented multi-variant A/B testing frameworks evaluating product features across 2M active users.) Tj
+T* (- Created automated analytics pipelines in Google BigQuery and developed dashboards in Tableau.) Tj
+T* (- Built customer segmentation models using Scikit-Learn clustering algorithms and statistical hypothesis testing.) Tj
+T* (Data Analyst | Horizon Media \(2019 - 2021\)) Tj
+T* (- Conducted extensive exploratory data analysis with Pandas and NumPy.) Tj
+T* (- Modeled time series forecasting using ARIMA and Prophet to predict revenue trends.) Tj
+T* (--------------------------------------------------) Tj
+T* (EDUCATION:) Tj
+T* (M.S. in Statistics | Columbia University \(2019\)) Tj
+T* (B.S. in Applied Mathematics | NYU \(2017\)) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000002112 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2182
+%%EOF

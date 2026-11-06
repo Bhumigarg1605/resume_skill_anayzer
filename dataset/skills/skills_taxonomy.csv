@@ -1,0 +1,111 @@
+skill_id,preferred_label,alt_labels,category,skill_type,description
+S001,Machine Learning,ML|Statistical Learning|Supervised Learning|Unsupervised Learning,Machine Learning,knowledge,Algorithms that improve automatically through experience and data.
+S002,Deep Learning,DL|Neural Networks|Artificial Neural Networks|ANN,Machine Learning,knowledge,Subset of ML based on artificial neural networks with representation learning.
+S003,Natural Language Processing,NLP|Text Mining|Computational Linguistics|Text Analytics,Machine Learning,knowledge,Field of AI focused on computer understanding of human language.
+S004,Computer Vision,CV|Image Processing|Object Detection|Image Classification,Machine Learning,knowledge,Field of AI enabling computers to derive information from digital images and videos.
+S005,Large Language Models,LLMs|Generative AI|GenAI|Prompt Engineering|GPT,Machine Learning,knowledge,Deep learning models trained on vast amounts of text data for generation and reasoning.
+S006,PyTorch,Torch|PyTorch Lightning|LibTorch,Machine Learning,skill,Open-source machine learning framework based on the Torch library.
+S007,TensorFlow,TF|TensorFlow 2.0|TF.Keras,Machine Learning,skill,End-to-end open source platform for machine learning developed by Google.
+S008,Scikit-Learn,sklearn|scikit learn,Machine Learning,skill,"Machine learning library for Python featuring classification, regression, and clustering."
+S009,Keras,Keras API,Machine Learning,skill,High-level neural networks API written in Python and capable of running on top of TensorFlow.
+S010,XGBoost,Extreme Gradient Boosting|xgboost,Machine Learning,skill,Optimized distributed gradient boosting library designed to be highly efficient and flexible.
+S011,LightGBM,LGBM|Light Gradient Boosted Machine,Machine Learning,skill,"Fast, distributed, high performance gradient boosting framework based on decision trees."
+S012,Hugging Face,HuggingFace|Transformers Library|HF Datasets|Diffusers,Machine Learning,skill,Platform and library suite providing state-of-the-art pretrained transformer models.
+S013,MLflow,ML Flow|Model Registry|Experiment Tracking,Machine Learning,skill,Open source platform to manage the ML lifecycle including experimentation and deployment.
+S014,Feature Engineering,Feature Selection|Feature Extraction|Feature Store,Machine Learning,skill,Process of using domain knowledge to select and transform variables for machine learning.
+S015,Reinforcement Learning,RL|Q-Learning|Policy Gradient|Deep RL,Machine Learning,knowledge,Area of machine learning concerning how intelligent agents take actions in an environment.
+S016,Model Evaluation,Cross Validation|ROC AUC|Confusion Matrix|F1-Score,Machine Learning,skill,"Methods and metrics used to assess the performance, accuracy, and bias of ML models."
+S017,LangChain,Lang Chain|LLM Orchestration|LlamaIndex,Machine Learning,skill,Framework designed to simplify the creation of applications using large language models.
+S018,Vector Databases,Vector DB|Pinecone|ChromaDB|Weaviate|Milvus|FAISS,Machine Learning,skill,Specialized databases designed to store and query high-dimensional vector embeddings.
+S019,Hyperparameter Tuning,Optuna|Ray Tune|Grid Search|Random Search|Bayesian Optimization,Machine Learning,skill,Process of choosing a set of optimal hyperparameters for a learning algorithm.
+S020,MLOps,Machine Learning Operations|Model Monitoring|Continuous Training|CD4ML,Machine Learning,knowledge,Practices for deploying and maintaining machine learning models in production reliably.
+S021,Python,Python3|Python 3|py,Programming,skill,"High-level general-purpose programming language widely used in AI, data science, and web development."
+S022,R,R Language|R-Project|RStats,Programming,skill,Programming language for statistical computing and graphics.
+S023,Pandas,Pandas DataFrame|pd,Data Science,skill,"Fast, powerful, flexible and easy to use open source data analysis and manipulation tool."
+S024,NumPy,numpy|Numerical Python|np,Data Science,skill,Fundamental package for scientific computing with Python supporting multi-dimensional arrays.
+S025,SciPy,scipy|Scientific Python,Data Science,skill,"Open-source software for mathematics, science, and engineering in Python."
+S026,Matplotlib,matplotlib|pyplot,Data Science,skill,"Comprehensive library for creating static, animated, and interactive visualizations in Python."
+S027,Seaborn,sns|seaborn,Data Science,skill,Python data visualization library based on matplotlib providing a high-level interface for statistical graphics.
+S028,Statistics,Statistical Modeling|Inferential Statistics|Descriptive Statistics|Probability Theory,Data Science,knowledge,"Discipline that concerns the collection, organization, analysis, interpretation, and presentation of data."
+S029,Hypothesis Testing,A/B Testing|p-value|t-test|ANOVA|Chi-Square,Data Science,skill,Statistical method used in making statistical decisions using experimental data.
+S030,Data Visualization,Information Visualization|Visual Analytics|Dashboarding,Data Science,skill,Graphic representation of data to provide qualitative and quantitative insights.
+S031,Tableau,Tableau Desktop|Tableau Server,Data Science,skill,Visual analytics platform transforming the way we use data to solve problems.
+S032,Power BI,PowerBI|Microsoft Power BI|DAX,Data Science,skill,Interactive data visualization software product developed by Microsoft.
+S033,SQL,Structured Query Language|ANSI SQL|T-SQL|PL/SQL,Data Science,skill,Domain-specific language used in programming and designed for managing relational data.
+S034,Exploratory Data Analysis,EDA|Data Profiling|Data Exploration,Data Science,skill,Approach of analyzing data sets to summarize their main characteristics with visual methods.
+S035,Time Series Analysis,Time Series Forecasting|ARIMA|SARIMA|Prophet|Exponential Smoothing,Data Science,knowledge,Methods for analyzing time series data to extract meaningful statistics and characteristics.
+S036,Excel,Microsoft Excel|Spreadsheets|VLOOKUP|Pivot Tables,Data Science,skill,"Spreadsheet software developed by Microsoft for calculations, graphing tools, and pivot tables."
+S037,Apache Spark,Spark|PySpark|Spark SQL|Spark Streaming,Data Engineering,skill,"Multi-language engine for executing data engineering, data science, and machine learning on single-node or clusters."
+S038,Apache Kafka,Kafka|Kafka Streams|Event Streaming|Message Broker,Data Engineering,skill,Distributed event store and stream-processing platform.
+S039,Apache Airflow,Airflow|Workflow Orchestration|DAGs,Data Engineering,skill,"Platform created by the community to programmatically author, schedule and monitor workflows."
+S040,ETL,Extract Transform Load|ELT|Data Pipelines|Data Ingestion,Data Engineering,skill,"Process in data warehousing that extracts data from multiple sources, transforms it, and loads it into a repository."
+S041,Data Warehousing,DWH|Data Warehouse|Kimball|Inmon|Star Schema|Snowflake Schema,Data Engineering,knowledge,Central repository of integrated data from one or more disparate sources.
+S042,Snowflake,Snowflake DB|Snowflake Cloud Data Platform,Data Engineering,skill,Cloud-based data storage and analytics service commonly referred to as data warehouse-as-a-service.
+S043,Google BigQuery,BigQuery|BQ|Google Cloud BigQuery,Data Engineering,skill,"Fully managed, serverless enterprise data warehouse designed to help ingest, store, analyze and visualize data."
+S044,Amazon Redshift,Redshift|AWS Redshift,Data Engineering,skill,Cloud data warehouse service provided by Amazon Web Services.
+S045,dbt,data build tool|dbt-core|dbt-cloud,Data Engineering,skill,Development framework that combines modular SQL with software engineering best practices for data transformation.
+S046,Hadoop,Apache Hadoop|HDFS|MapReduce|Hive,Data Engineering,skill,Framework that allows for the distributed processing of large data sets across clusters of computers.
+S047,Databricks,Databricks Lakehouse|Delta Lake,Data Engineering,skill,"Unified analytics platform that combines data engineering, science, and business analytics."
+S048,Data Modeling,Dimensional Modeling|Relational Modeling|Entity Relationship Diagram|ERD,Data Engineering,knowledge,Process of creating a visual representation of either a whole information system or parts of it.
+S049,Apache Flink,Flink|Stateful Stream Processing,Data Engineering,skill,Framework and distributed processing engine for stateful computations over unbounded and bounded data streams.
+S050,Presto,Trino|PrestoSQL|Distributed SQL Engine,Data Engineering,skill,Open source distributed SQL query engine for running interactive analytic queries against data sources of all sizes.
+S051,Amazon Web Services,AWS|Amazon Cloud|AWS Cloud|EC2|S3|Lambda,Cloud,skill,"Comprehensive, evolving cloud computing platform provided by Amazon."
+S052,Google Cloud Platform,GCP|Google Cloud|GCE|GCS|Cloud Run,Cloud,skill,Suite of cloud computing services that runs on the same infrastructure that Google uses internally.
+S053,Microsoft Azure,Azure|Azure Cloud|Azure DevOps,Cloud,skill,Cloud computing platform operated by Microsoft for application management via Microsoft-managed data centers.
+S054,Docker,Docker Containers|Containerization|Dockerfile|Docker Compose,DevOps,skill,Set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.
+S055,Kubernetes,K8s|Kube|Container Orchestration|Helm,DevOps,skill,"Open-source system for automating deployment, scaling, and management of containerized applications."
+S056,CI/CD,Continuous Integration|Continuous Delivery|Continuous Deployment|Build Automation,DevOps,knowledge,Method to frequently deliver apps to customers by introducing automation into the stages of app development.
+S057,Terraform,Infrastructure as Code|IaC|HashiCorp Terraform,DevOps,skill,Open-source infrastructure as code software tool created by HashiCorp.
+S058,GitHub Actions,GHA|GitHub Workflows,DevOps,skill,"Continuous integration and continuous delivery platform that allows automating build, test, and deployment pipeline."
+S059,Jenkins,Jenkins CI|Jenkinsfile,DevOps,skill,"Open source automation server that helps automate the parts of software development related to building, testing, and deploying."
+S060,Ansible,Ansible Playbooks|Configuration Management,DevOps,skill,"Open-source software provisioning, configuration management, and application-deployment tool."
+S061,Linux,Linux OS|Bash|Unix|Shell Scripting|Ubuntu|Debian|CentOS,DevOps,skill,Open-source Unix-like operating system kernel and command-line environment.
+S062,Git,Version Control|GitHub|GitLab|Bitbucket|VCS,Software Engineering,skill,Distributed version control system designed to handle everything from small to very large projects.
+S063,Prometheus,Prometheus Monitoring|PromQL,DevOps,skill,Open-source systems monitoring and alerting toolkit.
+S064,Grafana,Grafana Dashboards|Telemetry Visualization,DevOps,skill,Multi-platform open source analytics and interactive visualization web application.
+S065,Serverless,AWS Lambda|Google Cloud Functions|Azure Functions|FaaS,Cloud,knowledge,Cloud execution model where the cloud provider dynamically manages the allocation of machine resources.
+S066,Java,Java SE|Java EE|Java 17|Java 11|JVM,Programming,skill,"Class-based, object-oriented programming language designed for minimal implementation dependencies."
+S067,C++,CPP|Modern C++|C++17|C++20,Programming,skill,General-purpose programming language created as an extension of the C programming language.
+S068,C#,CSharp|C Sharp|.NET|DotNet,Programming,skill,"Modern, object-oriented, and type-safe programming language developed by Microsoft."
+S069,Go,Golang|Go Language,Programming,skill,"Statically typed, compiled high-level programming language designed at Google."
+S070,Rust,Rustlang|Rust-lang,Programming,skill,"Multi-paradigm, general-purpose programming language that emphasizes performance, type safety, and concurrency."
+S071,Node.js,NodeJS|Node|Express.js|Express,Backend,skill,"Open-source, cross-platform JavaScript runtime environment that can run on OSes and execute JavaScript outside a browser."
+S072,FastAPI,Fast API|Starlette|Pydantic,Backend,skill,"Modern, fast (high-performance), web framework for building APIs with Python 3.8+ based on standard Python type hints."
+S073,Flask,Flask API|Pallets Flask,Backend,skill,Micro web framework written in Python classified as a microframework.
+S074,Django,Django REST Framework|DRF|Django ORM,Backend,skill,"High-level Python web framework that encourages rapid development and clean, pragmatic design."
+S075,Spring Boot,Spring|Spring Framework|Spring MVC,Backend,skill,"Open-source, microservice-based Java web framework developed by Pivotal Software."
+S076,RESTful APIs,REST|REST API|Web APIs|HTTP APIs|Endpoints,Backend,knowledge,Architectural style for an application programming interface that uses HTTP requests to access and use data.
+S077,GraphQL,Apollo GraphQL|GraphQL API|Schema Definition Language,Backend,skill,Query language for APIs and a runtime for fulfilling those queries with existing data.
+S078,Microservices,Microservices Architecture|Distributed Systems|Service-Oriented Architecture|SOA,Backend,knowledge,"Software architecture pattern where complex applications are composed of small, independent processes communicating via APIs."
+S079,gRPC,Protobuf|Protocol Buffers|RPC,Backend,skill,"High performance, open-source universal RPC framework developed by Google."
+S080,Message Queues,RabbitMQ|ActiveMQ|Celery|Redis Queue|SQS,Backend,knowledge,Inter-process communications component using a queue for messaging.
+S081,PostgreSQL,Postgres|Postgres DB|psql,Databases,skill,"Powerful, open source object-relational database system with over 35 years of active development."
+S082,MySQL,MySQL DB|MariaDB,Databases,skill,Open-source relational database management system.
+S083,MongoDB,Mongo|NoSQL|Document DB|BSON,Databases,skill,Source-available cross-platform document-oriented database program classified as NoSQL.
+S084,Redis,Redis Cache|In-Memory Cache|Key-Value Store,Databases,skill,"Open source in-memory storage, used as a distributed, in-memory key-value database, cache, and message broker."
+S085,Cassandra,Apache Cassandra|CQL,Databases,skill,"Free and open-source, distributed, wide-column store, NoSQL database management system designed to handle large amounts of data."
+S086,Elasticsearch,Elastic Search|ELK Stack|Kibana|OpenSearch,Databases,skill,"Distributed, free and open search and analytics engine for all types of data, including textual, numerical, and geospatial."
+S087,Database Design,Schema Design|Normalization|Indexing|Query Optimization,Databases,knowledge,Organization of data according to a database model.
+S088,DynamoDB,AWS DynamoDB|Amazon DynamoDB,Databases,skill,Fully managed proprietary NoSQL database service that supports key-value and document data structures.
+S089,Neo4j,Graph Database|Cypher Query Language,Databases,skill,"Graph database management system developed by Neo4j, Inc."
+S090,JavaScript,JS|ES6|ECMAScript|Vanilla JS,Frontend,skill,"High-level, often just-in-time compiled language that conforms to the ECMAScript specification."
+S091,TypeScript,TS|Typed JavaScript,Frontend,skill,"Free and open source programming language developed and maintained by Microsoft, strict syntactical superset of JavaScript."
+S092,React,React.js|ReactJS|React Native,Frontend,skill,Free and open-source front-end JavaScript library for building user interfaces based on components.
+S093,Next.js,NextJS|Next|React Framework,Frontend,skill,Open-source web development framework created by Vercel enabling React-based web applications with server-side rendering.
+S094,Vue.js,Vue|VueJS|Nuxt.js,Frontend,skill,Open-source model-view-viewmodel front end JavaScript framework for building user interfaces and single-page applications.
+S095,Angular,AngularJS|Angular 2+,Frontend,skill,TypeScript-based free and open-source web application framework led by the Angular Team at Google.
+S096,HTML5,HTML|HyperText Markup Language|Semantic HTML,Frontend,skill,Standard markup language for documents designed to be displayed in a web browser.
+S097,CSS3,CSS|Cascading Style Sheets|Flexbox|Grid,Frontend,skill,Style sheet language used for describing the presentation of a document written in a markup language.
+S098,Tailwind CSS,Tailwind|Utility-First CSS,Frontend,skill,"Utility-first CSS framework packed with classes that can be composed to build any design, directly in markup."
+S099,Redux,Redux Toolkit|RTK|State Management,Frontend,skill,Open-source JavaScript library for managing and centralizing application state.
+S100,Responsive Web Design,Mobile-First Design|CSS Media Queries|Fluid Layouts,Frontend,knowledge,Approach to web design that makes web pages render well on a variety of devices and window or screen sizes.
+S101,Object-Oriented Programming,OOP|Object Oriented Design|Encapsulation|Polymorphism|Inheritance,Software Engineering,knowledge,Programming paradigm based on the concept of objects which can contain data and code.
+S102,Data Structures and Algorithms,DSA|Algorithms|Binary Trees|Hash Tables|Dynamic Programming,Software Engineering,knowledge,Systematic ways of organizing and processing data efficiently.
+S103,Unit Testing,Test Driven Development|TDD|pytest|unittest|JUnit|Jest,Software Engineering,skill,Software testing method by which individual units of source code are tested to determine whether they are fit for use.
+S104,Agile Methodologies,Agile|Scrum|Kanban|Sprint Planning|Jira,Software Engineering,knowledge,Iterative approach to project management and software development that helps teams deliver value faster.
+S105,Design Patterns,Software Architecture|SOLID Principles|Factory Pattern|Singleton Pattern,Software Engineering,knowledge,General repeatable solution to a commonly occurring problem in software design.
+S106,Code Review,Peer Review|Pull Requests|PR Review,Software Engineering,skill,Software quality assurance activity in which one or several people check a program mainly by viewing and reading source code.
+S107,Debugging,Troubleshooting|Profiling|Root Cause Analysis,Software Engineering,skill,"Process of finding and resolving bugs within a computer program, software, or system."
+S108,System Design,Scalability|High Availability|Load Balancing|Caching,Software Engineering,knowledge,"Process of defining the architecture, components, modules, interfaces, and data for a system to satisfy specified requirements."
+S109,Cybersecurity,Information Security|InfoSec|Application Security|OWASP|Vulnerability Assessment,Cybersecurity,knowledge,"Practice of protecting systems, networks, and programs from digital attacks."
+S110,Linux Shell Scripting,Shell Script|Bash Scripting|Cron Jobs|Zsh,DevOps,skill,Writing computer programs designed to be run by the Unix shell command-line interpreter.

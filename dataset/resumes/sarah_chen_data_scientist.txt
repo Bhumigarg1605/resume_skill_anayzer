@@ -1,0 +1,25 @@
+Sarah Chen
+Lead Data Scientist
+sarah.chen@email.com | (555) 876-5432 | New York, NY | linkedin.com/in/sarahchen-ds
+
+PROFESSIONAL SUMMARY
+Results-driven Data Scientist with 5 years of experience delivering actionable business insights through statistical modeling, exploratory data analysis, and predictive machine learning. Strong proficiency in Python, SQL, Pandas, Tableau, and hypothesis testing.
+
+TECHNICAL SKILLS
+Statistical Analysis: Hypothesis Testing, A/B Testing, Statistics, Time Series Analysis, SciPy
+Data Science & ML: Python, SQL, Pandas, NumPy, Scikit-Learn, Machine Learning, Data Visualization
+BI & Tools: Tableau, Power BI, Matplotlib, Seaborn, Excel, Git, Google BigQuery
+
+WORK EXPERIENCE
+Senior Data Scientist | FinMetrics Group (2021 - Present)
+- Designed and implemented multi-variant A/B testing frameworks evaluating product features across 2M active users.
+- Created automated analytics pipelines in Google BigQuery and developed dashboards in Tableau.
+- Built customer segmentation models using Scikit-Learn clustering algorithms and statistical hypothesis testing.
+
+Data Analyst | Horizon Media (2019 - 2021)
+- Conducted extensive exploratory data analysis with Pandas and NumPy.
+- Modeled time series forecasting using ARIMA and Prophet to predict revenue trends.
+
+EDUCATION
+M.S. in Statistics | Columbia University (2019)
+B.S. in Applied Mathematics | NYU (2017)

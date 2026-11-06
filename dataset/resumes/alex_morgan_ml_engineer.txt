@@ -1,0 +1,26 @@
+Alex Morgan
+Senior Machine Learning Engineer
+alex.morgan@email.com | (555) 234-5678 | San Francisco, CA | github.com/alexm-ml
+
+PROFESSIONAL SUMMARY
+Innovative Machine Learning Engineer with 4+ years of hands-on experience designing, training, and deploying deep learning models in production. Proficient in PyTorch, Scikit-Learn, Docker, and AWS. Proven track record in NLP, feature engineering, and automated MLOps pipelines.
+
+TECHNICAL SKILLS
+Languages & Frameworks: Python, PyTorch, TensorFlow, Scikit-Learn, Pandas, NumPy, SQL
+MLOps & Cloud: Docker, Kubernetes, AWS (EC2, S3, SageMaker), Git, CI/CD, MLflow, Linux
+Core Competencies: Machine Learning, Deep Learning, Natural Language Processing, Feature Engineering, Model Evaluation, Hyperparameter Tuning
+
+WORK EXPERIENCE
+Lead ML Engineer | Cortex AI Labs (2022 - Present)
+- Spearheaded deep learning model development using PyTorch and Hugging Face for text classification, increasing F1-score from 0.81 to 0.92.
+- Orchestrated model training pipelines with MLflow and containerized deployment using Docker and Kubernetes on AWS.
+- Built scalable feature engineering workflows utilizing SQL and Pandas processing 50M+ rows daily.
+
+Machine Learning Specialist | DataBridge Tech (2020 - 2022)
+- Developed customer churn prediction models using Scikit-Learn, XGBoost, and LightGBM.
+- Conducted A/B testing and rigorous model evaluation with ROC-AUC analysis.
+- Collaborated in an Agile environment using Git, Jira, and automated CI/CD workflows.
+
+EDUCATION
+Master of Science in Computer Science | Stanford University (2020)
+Bachelor of Science in Data Science | UC Berkeley (2018)

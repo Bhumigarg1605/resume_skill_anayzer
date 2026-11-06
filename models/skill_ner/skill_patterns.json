@@ -1,0 +1,1942 @@
+[
+  {
+    "label": "SKILL",
+    "pattern": "Machine Learning"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "ML"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Statistical Learning"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Supervised Learning"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Unsupervised Learning"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Deep Learning"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "DL"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Neural Networks"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Artificial Neural Networks"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "ANN"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Natural Language Processing"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "NLP"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Text Mining"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Computational Linguistics"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Text Analytics"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Computer Vision"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "CV"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Image Processing"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Object Detection"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Image Classification"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Large Language Models"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "LLMs"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Generative AI"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "GenAI"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Prompt Engineering"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "GPT"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "PyTorch"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Torch"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "PyTorch Lightning"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "LibTorch"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "TensorFlow"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "TF"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "TensorFlow 2.0"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "TF.Keras"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Scikit-Learn"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "sklearn"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "scikit learn"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Keras"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Keras API"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "XGBoost"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Extreme Gradient Boosting"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "xgboost"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "LightGBM"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "LGBM"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Light Gradient Boosted Machine"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Hugging Face"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "HuggingFace"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Transformers Library"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "HF Datasets"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Diffusers"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "MLflow"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "ML Flow"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Model Registry"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Experiment Tracking"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Feature Engineering"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Feature Selection"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Feature Extraction"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Feature Store"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Reinforcement Learning"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "RL"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Q-Learning"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Policy Gradient"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Deep RL"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Model Evaluation"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Cross Validation"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "ROC AUC"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Confusion Matrix"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "F1-Score"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "LangChain"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Lang Chain"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "LLM Orchestration"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "LlamaIndex"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Vector Databases"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Vector DB"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Pinecone"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "ChromaDB"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Weaviate"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Milvus"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "FAISS"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Hyperparameter Tuning"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Optuna"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Ray Tune"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Grid Search"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Random Search"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Bayesian Optimization"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "MLOps"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Machine Learning Operations"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Model Monitoring"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Continuous Training"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "CD4ML"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Python"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Python3"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Python 3"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "py"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "R"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "R Language"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "R-Project"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "RStats"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Pandas"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Pandas DataFrame"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "pd"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "NumPy"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "numpy"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Numerical Python"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "np"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "SciPy"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "scipy"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Scientific Python"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Matplotlib"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "matplotlib"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "pyplot"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Seaborn"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "sns"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "seaborn"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Statistics"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Statistical Modeling"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Inferential Statistics"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Descriptive Statistics"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Probability Theory"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Hypothesis Testing"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "A/B Testing"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "p-value"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "t-test"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "ANOVA"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Chi-Square"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Data Visualization"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Information Visualization"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Visual Analytics"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Dashboarding"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Tableau"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Tableau Desktop"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Tableau Server"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Power BI"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "PowerBI"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Microsoft Power BI"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "DAX"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "SQL"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Structured Query Language"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "ANSI SQL"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "T-SQL"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "PL/SQL"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Exploratory Data Analysis"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "EDA"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Data Profiling"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Data Exploration"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Time Series Analysis"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Time Series Forecasting"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "ARIMA"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "SARIMA"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Prophet"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Exponential Smoothing"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Excel"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Microsoft Excel"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Spreadsheets"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "VLOOKUP"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Pivot Tables"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Apache Spark"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Spark"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "PySpark"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Spark SQL"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Spark Streaming"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Apache Kafka"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Kafka"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Kafka Streams"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Event Streaming"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Message Broker"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Apache Airflow"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Airflow"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Workflow Orchestration"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "DAGs"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "ETL"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Extract Transform Load"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "ELT"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Data Pipelines"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Data Ingestion"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Data Warehousing"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "DWH"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Data Warehouse"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Kimball"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Inmon"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Star Schema"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Snowflake Schema"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Snowflake"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Snowflake DB"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Snowflake Cloud Data Platform"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Google BigQuery"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "BigQuery"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "BQ"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Google Cloud BigQuery"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Amazon Redshift"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Redshift"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "AWS Redshift"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "dbt"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "data build tool"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "dbt-core"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "dbt-cloud"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Hadoop"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Apache Hadoop"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "HDFS"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "MapReduce"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Hive"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Databricks"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Databricks Lakehouse"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Delta Lake"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Data Modeling"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Dimensional Modeling"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Relational Modeling"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Entity Relationship Diagram"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "ERD"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Apache Flink"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Flink"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Stateful Stream Processing"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Presto"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Trino"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "PrestoSQL"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Distributed SQL Engine"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Amazon Web Services"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "AWS"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Amazon Cloud"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "AWS Cloud"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "EC2"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "S3"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Lambda"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Google Cloud Platform"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "GCP"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Google Cloud"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "GCE"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "GCS"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Cloud Run"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Microsoft Azure"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Azure"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Azure Cloud"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Azure DevOps"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Docker"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Docker Containers"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Containerization"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Dockerfile"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Docker Compose"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Kubernetes"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "K8s"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Kube"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Container Orchestration"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Helm"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "CI/CD"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Continuous Integration"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Continuous Delivery"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Continuous Deployment"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Build Automation"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Terraform"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Infrastructure as Code"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "IaC"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "HashiCorp Terraform"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "GitHub Actions"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "GHA"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "GitHub Workflows"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Jenkins"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Jenkins CI"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Jenkinsfile"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Ansible"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Ansible Playbooks"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Configuration Management"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Linux"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Linux OS"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Bash"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Unix"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Shell Scripting"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Ubuntu"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Debian"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "CentOS"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Git"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Version Control"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "GitHub"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "GitLab"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Bitbucket"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "VCS"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Prometheus"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Prometheus Monitoring"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "PromQL"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Grafana"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Grafana Dashboards"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Telemetry Visualization"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Serverless"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "AWS Lambda"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Google Cloud Functions"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Azure Functions"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "FaaS"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Java"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Java SE"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Java EE"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Java 17"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Java 11"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "JVM"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "C++"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "CPP"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Modern C++"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "C++17"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "C++20"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "C#"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "CSharp"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "C Sharp"
+  },
+  {
+    "label": "SKILL",
+    "pattern": ".NET"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "DotNet"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Go"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Golang"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Go Language"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Rust"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Rustlang"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Rust-lang"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Node.js"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "NodeJS"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Node"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Express.js"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Express"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "FastAPI"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Fast API"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Starlette"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Pydantic"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Flask"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Flask API"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Pallets Flask"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Django"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Django REST Framework"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "DRF"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Django ORM"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Spring Boot"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Spring"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Spring Framework"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Spring MVC"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "RESTful APIs"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "REST"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "REST API"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Web APIs"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "HTTP APIs"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Endpoints"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "GraphQL"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Apollo GraphQL"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "GraphQL API"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Schema Definition Language"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Microservices"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Microservices Architecture"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Distributed Systems"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Service-Oriented Architecture"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "SOA"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "gRPC"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Protobuf"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Protocol Buffers"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "RPC"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Message Queues"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "RabbitMQ"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "ActiveMQ"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Celery"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Redis Queue"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "SQS"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "PostgreSQL"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Postgres"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Postgres DB"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "psql"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "MySQL"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "MySQL DB"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "MariaDB"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "MongoDB"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Mongo"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "NoSQL"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Document DB"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "BSON"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Redis"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Redis Cache"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "In-Memory Cache"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Key-Value Store"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Cassandra"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Apache Cassandra"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "CQL"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Elasticsearch"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Elastic Search"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "ELK Stack"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Kibana"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "OpenSearch"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Database Design"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Schema Design"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Normalization"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Indexing"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Query Optimization"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "DynamoDB"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "AWS DynamoDB"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Amazon DynamoDB"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Neo4j"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Graph Database"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Cypher Query Language"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "JavaScript"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "JS"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "ES6"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "ECMAScript"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Vanilla JS"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "TypeScript"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "TS"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Typed JavaScript"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "React"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "React.js"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "ReactJS"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "React Native"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Next.js"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "NextJS"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Next"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "React Framework"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Vue.js"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Vue"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "VueJS"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Nuxt.js"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Angular"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "AngularJS"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Angular 2+"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "HTML5"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "HTML"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "HyperText Markup Language"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Semantic HTML"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "CSS3"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "CSS"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Cascading Style Sheets"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Flexbox"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Grid"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Tailwind CSS"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Tailwind"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Utility-First CSS"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Redux"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Redux Toolkit"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "RTK"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "State Management"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Responsive Web Design"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Mobile-First Design"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "CSS Media Queries"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Fluid Layouts"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Object-Oriented Programming"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "OOP"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Object Oriented Design"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Encapsulation"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Polymorphism"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Inheritance"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Data Structures and Algorithms"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "DSA"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Algorithms"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Binary Trees"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Hash Tables"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Dynamic Programming"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Unit Testing"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Test Driven Development"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "TDD"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "pytest"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "unittest"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "JUnit"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Jest"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Agile Methodologies"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Agile"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Scrum"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Kanban"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Sprint Planning"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Jira"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Design Patterns"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Software Architecture"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "SOLID Principles"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Factory Pattern"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Singleton Pattern"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Code Review"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Peer Review"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Pull Requests"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "PR Review"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Debugging"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Troubleshooting"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Profiling"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Root Cause Analysis"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "System Design"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Scalability"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "High Availability"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Load Balancing"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Caching"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Cybersecurity"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Information Security"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "InfoSec"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Application Security"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "OWASP"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Vulnerability Assessment"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Linux Shell Scripting"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Shell Script"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Bash Scripting"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Cron Jobs"
+  },
+  {
+    "label": "SKILL",
+    "pattern": "Zsh"
+  }
+]

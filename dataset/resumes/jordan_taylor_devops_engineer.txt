@@ -1,0 +1,24 @@
+Jordan Taylor
+Cloud DevOps & Platform Engineer
+jordan.taylor@email.com | (555) 789-0123 | Seattle, WA | github.com/jtaylor-cloud
+
+PROFESSIONAL SUMMARY
+Reliability-focused DevOps Engineer with extensive expertise in Linux systems administration, Kubernetes container orchestration, Terraform infrastructure as code, and CI/CD automation across AWS and GCP environments.
+
+TECHNICAL SKILLS
+Cloud & Infra: Amazon Web Services, Google Cloud Platform, Linux, Docker, Kubernetes, Terraform, Helm
+CI/CD & Observability: CI/CD, GitHub Actions, Jenkins, Prometheus, Grafana, Ansible, Bash
+Languages & VCS: Python, Linux Shell Scripting, Git, RESTful APIs
+
+WORK EXPERIENCE
+DevOps Engineer | CloudScale Systems (2021 - Present)
+- Designed multi-region Kubernetes clusters on AWS (EKS) orchestrated with Terraform.
+- Built zero-downtime CI/CD deployment pipelines using GitHub Actions and Docker.
+- Deployed cluster-wide observability and alerting using Prometheus and Grafana dashboards.
+
+Systems Administrator | Vertex Hosting (2019 - 2021)
+- Administered fleet of 200+ production Linux servers with automated Ansible playbooks.
+- Wrote custom Bash shell scripts and Python automation routines for system health checks.
+
+EDUCATION
+B.S. in Information Technology | University of Washington (2019)

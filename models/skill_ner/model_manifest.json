@@ -1,0 +1,11 @@
+{
+  "model_name": "skill_ner",
+  "version": "1.0.0",
+  "labels": [
+    "SKILL"
+  ],
+  "architecture": "Transition-based NER / PhraseMatcher hybrid",
+  "training_examples": 40,
+  "epochs": 30,
+  "base_model": "en_core_web_sm / blank:en"
+}

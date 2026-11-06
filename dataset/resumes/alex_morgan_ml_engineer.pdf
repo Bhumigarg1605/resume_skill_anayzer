@@ -1,0 +1,60 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 2071 >>
+stream
+BT
+/F1 10 Tf
+50 780 Td
+14 TL
+(Alex Morgan - Senior Machine Learning Engineer) Tj
+T* (alex.morgan@email.com | \(555\) 234-5678 | San Francisco, CA | github.com/alexm-ml) Tj
+T* (--------------------------------------------------) Tj
+T* (PROFESSIONAL SUMMARY:) Tj
+T* (Innovative Machine Learning Engineer with 4+ years of hands-on experience designing, training, and deploying deep learning models in production. Proficient in PyTorch, Scikit-Learn, Docker, and AWS. Proven track record in NLP, feature engineering, and automated MLOps pipelines.) Tj
+T* (--------------------------------------------------) Tj
+T* (TECHNICAL SKILLS:) Tj
+T* (Languages & Frameworks: Python, PyTorch, TensorFlow, Scikit-Learn, Pandas, NumPy, SQL) Tj
+T* (MLOps & Cloud: Docker, Kubernetes, AWS \(EC2, S3, SageMaker\), Git, CI/CD, MLflow, Linux) Tj
+T* (Core Competencies: Machine Learning, Deep Learning, Natural Language Processing, Feature Engineering, Model Evaluation, Hyperparameter Tuning) Tj
+T* (--------------------------------------------------) Tj
+T* (WORK EXPERIENCE:) Tj
+T* (Lead ML Engineer | Cortex AI Labs \(2022 - Present\)) Tj
+T* (- Spearheaded deep learning model development using PyTorch and Hugging Face for text classification, increasing F1-score from 0.81 to 0.92.) Tj
+T* (- Orchestrated model training pipelines with MLflow and containerized deployment using Docker and Kubernetes on AWS.) Tj
+T* (- Built scalable feature engineering workflows utilizing SQL and Pandas processing 50M+ rows daily.) Tj
+T* (Machine Learning Specialist | DataBridge Tech \(2020 - 2022\)) Tj
+T* (- Developed customer churn prediction models using Scikit-Learn, XGBoost, and LightGBM.) Tj
+T* (- Conducted A/B testing and rigorous model evaluation with ROC-AUC analysis.) Tj
+T* (- Collaborated in an Agile environment using Git, Jira, and automated CI/CD workflows.) Tj
+T* (--------------------------------------------------) Tj
+T* (EDUCATION:) Tj
+T* (Master of Science in Computer Science | Stanford University \(2020\)) Tj
+T* (Bachelor of Science in Data Science | UC Berkeley \(2018\)) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000002364 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2434
+%%EOF

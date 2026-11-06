@@ -1,0 +1,23 @@
+David Kim
+Senior Frontend Developer
+david.kim@email.com | (555) 432-1098 | Austin, TX | github.com/davidkim-ui
+
+PROFESSIONAL SUMMARY
+Creative and performance-oriented Frontend Developer with 4 years specializing in React, TypeScript, and responsive web design. Expert in building accessible UI component libraries and integrating RESTful APIs and GraphQL.
+
+TECHNICAL SKILLS
+Frontend: React, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, Next.js, Redux, Responsive Web Design
+Tools & Practices: Git, Unit Testing, Jest, RESTful APIs, GraphQL, Webpack, Agile Methodologies
+
+WORK EXPERIENCE
+Frontend Engineer | SaaSify Digital (2021 - Present)
+- Architected modular design system using React, TypeScript, and Tailwind CSS.
+- Managed global application state using Redux Toolkit, decreasing re-renders by 35%.
+- Integrated complex RESTful APIs and GraphQL endpoints with robust error handling.
+
+Web Developer | PixelCraft Studio (2019 - 2021)
+- Built high-converting responsive landing pages with HTML5, CSS3, and JavaScript.
+- Maintained clean Git version control and conducted peer code reviews.
+
+EDUCATION
+B.S. in Computer Science | UT Austin (2019)

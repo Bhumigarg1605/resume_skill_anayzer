@@ -1,0 +1,58 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1704 >>
+stream
+BT
+/F1 10 Tf
+50 780 Td
+14 TL
+(Jordan Taylor - Cloud DevOps & Platform Engineer) Tj
+T* (jordan.taylor@email.com | \(555\) 789-0123 | Seattle, WA | github.com/jtaylor-cloud) Tj
+T* (--------------------------------------------------) Tj
+T* (PROFESSIONAL SUMMARY:) Tj
+T* (Reliability-focused DevOps Engineer with extensive expertise in Linux systems administration, Kubernetes container orchestration, Terraform infrastructure as code, and CI/CD automation across AWS and GCP environments.) Tj
+T* (--------------------------------------------------) Tj
+T* (TECHNICAL SKILLS:) Tj
+T* (Cloud & Infra: Amazon Web Services, Google Cloud Platform, Linux, Docker, Kubernetes, Terraform, Helm) Tj
+T* (CI/CD & Observability: CI/CD, GitHub Actions, Jenkins, Prometheus, Grafana, Ansible, Bash) Tj
+T* (Languages & VCS: Python, Linux Shell Scripting, Git, RESTful APIs) Tj
+T* (--------------------------------------------------) Tj
+T* (WORK EXPERIENCE:) Tj
+T* (DevOps Engineer | CloudScale Systems \(2021 - Present\)) Tj
+T* (- Designed multi-region Kubernetes clusters on AWS \(EKS\) orchestrated with Terraform.) Tj
+T* (- Built zero-downtime CI/CD deployment pipelines using GitHub Actions and Docker.) Tj
+T* (- Deployed cluster-wide observability and alerting using Prometheus and Grafana dashboards.) Tj
+T* (Systems Administrator | Vertex Hosting \(2019 - 2021\)) Tj
+T* (- Administered fleet of 200+ production Linux servers with automated Ansible playbooks.) Tj
+T* (- Wrote custom Bash shell scripts and Python automation routines for system health checks.) Tj
+T* (--------------------------------------------------) Tj
+T* (EDUCATION:) Tj
+T* (B.S. in Information Technology | University of Washington \(2019\)) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001997 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2067
+%%EOF

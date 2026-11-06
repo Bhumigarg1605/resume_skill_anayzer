@@ -1,0 +1,192 @@
+[
+  {
+    "text": "Architected asynchronous microservices using FastAPI, Redis caching, and Docker containerization.",
+    "entities": [
+      [
+        25,
+        38,
+        "SKILL"
+      ],
+      [
+        45,
+        52,
+        "SKILL"
+      ],
+      [
+        54,
+        59,
+        "SKILL"
+      ],
+      [
+        73,
+        79,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Implemented modern responsive user interfaces using React, TypeScript, and Tailwind CSS with Redux Toolkit for state management.",
+    "entities": [
+      [
+        52,
+        57,
+        "SKILL"
+      ],
+      [
+        59,
+        69,
+        "SKILL"
+      ],
+      [
+        75,
+        87,
+        "SKILL"
+      ],
+      [
+        93,
+        98,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Automated infrastructure provisioning and CI/CD pipelines using Terraform, GitHub Actions, and Jenkins on Google Cloud Platform.",
+    "entities": [
+      [
+        42,
+        47,
+        "SKILL"
+      ],
+      [
+        64,
+        73,
+        "SKILL"
+      ],
+      [
+        75,
+        89,
+        "SKILL"
+      ],
+      [
+        95,
+        102,
+        "SKILL"
+      ],
+      [
+        106,
+        127,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Engineered RAG pipelines utilizing LangChain, Vector Databases, and OpenAI GPT APIs.",
+    "entities": [
+      [
+        35,
+        44,
+        "SKILL"
+      ],
+      [
+        46,
+        62,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Conducted rigorous unit testing with pytest and practiced test driven development in an Agile environment.",
+    "entities": [
+      [
+        19,
+        31,
+        "SKILL"
+      ],
+      [
+        37,
+        43,
+        "SKILL"
+      ],
+      [
+        88,
+        93,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Configured Kafka event streams and Spark Streaming for real-time telemetry processing.",
+    "entities": [
+      [
+        11,
+        16,
+        "SKILL"
+      ],
+      [
+        35,
+        50,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Designed and deployed distributed deep learning training pipelines using TensorFlow, Docker, and Kubernetes on AWS.",
+    "entities": [
+      [
+        34,
+        47,
+        "SKILL"
+      ],
+      [
+        73,
+        83,
+        "SKILL"
+      ],
+      [
+        85,
+        91,
+        "SKILL"
+      ],
+      [
+        97,
+        107,
+        "SKILL"
+      ],
+      [
+        111,
+        114,
+        "SKILL"
+      ]
+    ]
+  },
+  {
+    "text": "Applied statistical hypothesis testing, A/B testing, and exploratory data analysis on multi-terabyte datasets using Pandas and NumPy.",
+    "entities": [
+      [
+        20,
+        38,
+        "SKILL"
+      ],
+      [
+        40,
+        51,
+        "SKILL"
+      ],
+      [
+        57,
+        82,
+        "SKILL"
+      ],
+      [
+        116,
+        122,
+        "SKILL"
+      ],
+      [
+        127,
+        132,
+        "SKILL"
+      ]
+    ]
+  }
+]

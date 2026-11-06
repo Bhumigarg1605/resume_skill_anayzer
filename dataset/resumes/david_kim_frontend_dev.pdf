@@ -1,0 +1,57 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1563 >>
+stream
+BT
+/F1 10 Tf
+50 780 Td
+14 TL
+(David Kim - Senior Frontend Developer) Tj
+T* (david.kim@email.com | \(555\) 432-1098 | Austin, TX | github.com/davidkim-ui) Tj
+T* (--------------------------------------------------) Tj
+T* (PROFESSIONAL SUMMARY:) Tj
+T* (Creative and performance-oriented Frontend Developer with 4 years specializing in React, TypeScript, and responsive web design. Expert in building accessible UI component libraries and integrating RESTful APIs and GraphQL.) Tj
+T* (--------------------------------------------------) Tj
+T* (TECHNICAL SKILLS:) Tj
+T* (Frontend: React, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, Next.js, Redux, Responsive Web Design) Tj
+T* (Tools & Practices: Git, Unit Testing, Jest, RESTful APIs, GraphQL, Webpack, Agile Methodologies) Tj
+T* (--------------------------------------------------) Tj
+T* (WORK EXPERIENCE:) Tj
+T* (Frontend Engineer | SaaSify Digital \(2021 - Present\)) Tj
+T* (- Architected modular design system using React, TypeScript, and Tailwind CSS.) Tj
+T* (- Managed global application state using Redux Toolkit, decreasing re-renders by 35%.) Tj
+T* (- Integrated complex RESTful APIs and GraphQL endpoints with robust error handling.) Tj
+T* (Web Developer | PixelCraft Studio \(2019 - 2021\)) Tj
+T* (- Built high-converting responsive landing pages with HTML5, CSS3, and JavaScript.) Tj
+T* (- Maintained clean Git version control and conducted peer code reviews.) Tj
+T* (--------------------------------------------------) Tj
+T* (EDUCATION:) Tj
+T* (B.S. in Computer Science | UT Austin \(2019\)) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001856 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1926
+%%EOF

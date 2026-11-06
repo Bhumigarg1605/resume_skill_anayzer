@@ -1,0 +1,176 @@
+[
+  {
+    "role_id": "JOB_MLE_01",
+    "role_name": "Machine Learning Engineer",
+    "category": "Artificial Intelligence / ML",
+    "experience_level": "Mid-Senior (3-5 years)",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Deep Learning",
+      "PyTorch",
+      "Scikit-Learn",
+      "Docker",
+      "Git",
+      "SQL",
+      "Feature Engineering"
+    ],
+    "preferred_skills": [
+      "MLflow",
+      "Kubernetes",
+      "Amazon Web Services",
+      "Large Language Models",
+      "CI/CD",
+      "FastAPI"
+    ],
+    "raw_description": "We are seeking an experienced Machine Learning Engineer to join our Core AI team. You will design, train, and deploy production-scale deep learning models for intelligent automation. \n\nResponsibilities:\n- Build and fine-tune machine learning and deep learning pipelines using Python and PyTorch.\n- Implement end-to-end feature engineering and model evaluation protocols with Scikit-Learn.\n- Containerize models using Docker and orchestrate deployments in cloud environments.\n- Collaborate with data engineers to optimize SQL data extraction and ingestion.\n- Maintain clean version control using Git and participate in peer code reviews.\n\nRequired Qualifications:\n- Strong proficiency in Python, PyTorch, Scikit-Learn, and core Machine Learning algorithms.\n- Solid foundation in Feature Engineering, Model Evaluation, and SQL.\n- Practical experience with Docker and Git version control.\n\nPreferred Qualifications:\n- Experience with MLOps tools like MLflow, Kubernetes, and AWS.\n- Familiarity with Large Language Models, LangChain, and FastAPI microservices."
+  },
+  {
+    "role_id": "JOB_DS_02",
+    "role_name": "Data Scientist",
+    "category": "Data Science & Analytics",
+    "experience_level": "Mid-Level (2-4 years)",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "NumPy",
+      "Statistics",
+      "Machine Learning",
+      "Scikit-Learn",
+      "Data Visualization",
+      "Hypothesis Testing"
+    ],
+    "preferred_skills": [
+      "Tableau",
+      "Power BI",
+      "Exploratory Data Analysis",
+      "Time Series Analysis",
+      "R",
+      "XGBoost"
+    ],
+    "raw_description": "Looking for a Data Scientist to transform complex business datasets into predictive insights. \n\nResponsibilities:\n- Formulate business questions into statistical experiments and hypothesis testing.\n- Perform exploratory data analysis using Pandas, NumPy, Matplotlib, and Seaborn.\n- Develop predictive models using Scikit-Learn and classical Machine Learning techniques.\n- Write advanced SQL queries to aggregate and transform relational data.\n- Create executive dashboards and communicate findings to stakeholders.\n\nRequirements:\n- Expertise in Python, SQL, Pandas, NumPy, and statistical hypothesis testing.\n- Strong grasp of Machine Learning algorithms (regression, classification, clustering).\n- Demonstrated experience with Data Visualization (Matplotlib, Seaborn, or Tableau)."
+  },
+  {
+    "role_id": "JOB_DE_03",
+    "role_name": "Data Engineer",
+    "category": "Data Engineering",
+    "experience_level": "Senior (4-7 years)",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Apache Spark",
+      "Apache Kafka",
+      "Apache Airflow",
+      "ETL",
+      "Data Warehousing",
+      "PostgreSQL"
+    ],
+    "preferred_skills": [
+      "Snowflake",
+      "Google BigQuery",
+      "dbt",
+      "Docker",
+      "Amazon Web Services",
+      "Data Modeling"
+    ],
+    "raw_description": "Senior Data Engineer wanted to build high-throughput batch and streaming data architectures. \n\nResponsibilities:\n- Architect distributed data processing pipelines using Apache Spark and PySpark.\n- Design real-time streaming ingestion pipelines with Apache Kafka.\n- Schedule and monitor DAGs using Apache Airflow.\n- Model dimensional data warehouses in PostgreSQL and Snowflake.\n- Implement resilient ETL / ELT workflows adhering to software engineering best practices.\n\nRequirements:\n- Fluent in Python and advanced SQL.\n- Hands-on mastery of Apache Spark, Apache Kafka, and Apache Airflow.\n- Deep understanding of Data Warehousing principles and ETL architecture."
+  },
+  {
+    "role_id": "JOB_FED_04",
+    "role_name": "Frontend Developer",
+    "category": "Frontend Engineering",
+    "experience_level": "Mid-Level (2-4 years)",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Redux",
+      "Git"
+    ],
+    "preferred_skills": [
+      "Next.js",
+      "Responsive Web Design",
+      "Unit Testing",
+      "RESTful APIs",
+      "GraphQL"
+    ],
+    "raw_description": "We are hiring a passionate Frontend Developer to create intuitive user interfaces for our AI analytics platform. \n\nResponsibilities:\n- Build reusable, accessible UI components with React, TypeScript, and Tailwind CSS.\n- Manage complex client state using Redux Toolkit.\n- Integrate RESTful APIs and GraphQL endpoints seamlessly.\n- Ensure cross-browser compatibility and responsive design on desktop and mobile.\n\nRequirements:\n- Strong proficiency in JavaScript (ES6+), TypeScript, React, HTML5, and CSS3.\n- Modern styling experience with Tailwind CSS.\n- State management with Redux.\n- Version control with Git."
+  },
+  {
+    "role_id": "JOB_BED_05",
+    "role_name": "Backend Developer",
+    "category": "Backend Engineering",
+    "experience_level": "Mid-Senior (3-5 years)",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker",
+      "RESTful APIs",
+      "Redis",
+      "Git",
+      "Unit Testing"
+    ],
+    "preferred_skills": [
+      "Microservices",
+      "Kubernetes",
+      "Amazon Web Services",
+      "GraphQL",
+      "CI/CD",
+      "gRPC"
+    ],
+    "raw_description": "Seeking a talented Backend Developer to engineer scalable APIs and microservice architectures. \n\nResponsibilities:\n- Develop asynchronous RESTful APIs using Python and FastAPI.\n- Design and optimize relational schemas in PostgreSQL and manage in-memory caching with Redis.\n- Implement comprehensive unit testing with pytest and maintain high test coverage.\n- Package applications in Docker containers and deploy via CI/CD pipelines.\n\nRequirements:\n- Proven experience with Python, FastAPI (or Django/Flask), and PostgreSQL.\n- Proficiency with Redis, Docker, Git, and automated Unit Testing.\n- Sound knowledge of RESTful API design principles."
+  },
+  {
+    "role_id": "JOB_DEVOPS_06",
+    "role_name": "DevOps & Cloud Engineer",
+    "category": "DevOps & Infrastructure",
+    "experience_level": "Mid-Senior (3-6 years)",
+    "required_skills": [
+      "Linux",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "Amazon Web Services",
+      "Git",
+      "Prometheus"
+    ],
+    "preferred_skills": [
+      "Grafana",
+      "Ansible",
+      "GitHub Actions",
+      "Python",
+      "Google Cloud Platform"
+    ],
+    "raw_description": "Looking for a Cloud DevOps Engineer to maintain cloud infrastructure and deployment pipelines. \n\nResponsibilities:\n- Manage multi-cluster Kubernetes environments on AWS (EKS).\n- Provision Infrastructure as Code using Terraform.\n- Configure CI/CD pipelines using GitHub Actions or Jenkins.\n- Implement observability, monitoring, and alerting with Prometheus and Grafana.\n- Automate system administration tasks using Linux shell scripting and Python.\n\nRequirements:\n- In-depth Linux administration and command-line proficiency.\n- Hands-on containerization experience with Docker and Kubernetes.\n- Infrastructure as Code with Terraform on AWS or GCP.\n- CI/CD and Git automation experience."
+  },
+  {
+    "role_id": "JOB_NLP_07",
+    "role_name": "NLP & LLM Engineer",
+    "category": "Artificial Intelligence / NLP",
+    "experience_level": "Senior (4+ years)",
+    "required_skills": [
+      "Python",
+      "Natural Language Processing",
+      "Large Language Models",
+      "PyTorch",
+      "Hugging Face",
+      "LangChain",
+      "Vector Databases",
+      "Git"
+    ],
+    "preferred_skills": [
+      "Docker",
+      "FastAPI",
+      "MLflow",
+      "Scikit-Learn",
+      "Amazon Web Services"
+    ],
+    "raw_description": "We are recruiting a Senior NLP Engineer to pioneer Generative AI and agentic systems. \n\nResponsibilities:\n- Fine-tune open-source LLMs using PyTorch and Hugging Face Transformers.\n- Build Retrieval-Augmented Generation (RAG) architectures with LangChain and Vector Databases (Pinecone/ChromaDB/FAISS).\n- Preprocess, tokenize, and clean unstructured text corpora at scale.\n- Deploy low-latency LLM inference endpoints using FastAPI.\n\nRequirements:\n- Deep mastery of Natural Language Processing and Large Language Models.\n- Hands-on expertise with PyTorch, Hugging Face, LangChain, and Vector Databases.\n- Strong Python programming and Git workflow."
+  }
+]
