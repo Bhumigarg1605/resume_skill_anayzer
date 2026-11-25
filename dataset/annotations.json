@@ -1330,196 +1330,6 @@
     ]
   },
   {
-    "text": "Designed and implemented backend services with Kotlin, Rust, Java for scalable business applications.",
-    "entities": [
-      [
-        47,
-        53,
-        "SKILL"
-      ],
-      [
-        55,
-        59,
-        "SKILL"
-      ],
-      [
-        61,
-        65,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Built and built reusable application modules with PHP, Kotlin while documenting implementation decisions.",
-    "entities": [
-      [
-        50,
-        53,
-        "SKILL"
-      ],
-      [
-        55,
-        61,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Worked with developed production software with Python, C++, Go for internal teams.",
-    "entities": [
-      [
-        47,
-        53,
-        "SKILL"
-      ],
-      [
-        55,
-        58,
-        "SKILL"
-      ],
-      [
-        60,
-        62,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Applied maintained application components with Java, Go, C++ across multiple projects.",
-    "entities": [
-      [
-        47,
-        51,
-        "SKILL"
-      ],
-      [
-        53,
-        55,
-        "SKILL"
-      ],
-      [
-        57,
-        60,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Used implemented backend services with C++, Kotlin, PHP in a production environment.",
-    "entities": [
-      [
-        39,
-        42,
-        "SKILL"
-      ],
-      [
-        44,
-        50,
-        "SKILL"
-      ],
-      [
-        52,
-        55,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Delivered solutions by built reusable application modules with JavaScript, Java, Rust to improve reliability and maintainability.",
-    "entities": [
-      [
-        63,
-        73,
-        "SKILL"
-      ],
-      [
-        75,
-        79,
-        "SKILL"
-      ],
-      [
-        81,
-        85,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Collaborated on systems using developed production software with TypeScript, JavaScript for scalable business applications.",
-    "entities": [
-      [
-        65,
-        75,
-        "SKILL"
-      ],
-      [
-        77,
-        87,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Designed and maintained application components with Go, C#, Python while documenting implementation decisions.",
-    "entities": [
-      [
-        52,
-        54,
-        "SKILL"
-      ],
-      [
-        56,
-        58,
-        "SKILL"
-      ],
-      [
-        60,
-        66,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Built and implemented backend services with Rust, Python, C# for internal teams.",
-    "entities": [
-      [
-        44,
-        48,
-        "SKILL"
-      ],
-      [
-        50,
-        56,
-        "SKILL"
-      ],
-      [
-        58,
-        60,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Worked with built reusable application modules with C#, JavaScript, TypeScript across multiple projects.",
-    "entities": [
-      [
-        52,
-        54,
-        "SKILL"
-      ],
-      [
-        56,
-        66,
-        "SKILL"
-      ],
-      [
-        68,
-        78,
-        "SKILL"
-      ]
-    ]
-  },
-  {
     "text": "Designed and developed predictive analytics workflows with Machine Learning, Natural Language Processing, TensorFlow for internal teams.",
     "entities": [
       [
@@ -2055,196 +1865,6 @@
     ]
   },
   {
-    "text": "Designed and developed predictive analytics workflows with Pandas, Scikit-Learn, Deep Learning for scalable business applications.",
-    "entities": [
-      [
-        59,
-        65,
-        "SKILL"
-      ],
-      [
-        67,
-        79,
-        "SKILL"
-      ],
-      [
-        81,
-        94,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Built and built intelligent data applications with NumPy, Pandas while documenting implementation decisions.",
-    "entities": [
-      [
-        51,
-        56,
-        "SKILL"
-      ],
-      [
-        58,
-        64,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Worked with evaluated machine learning experiments with Machine Learning, Natural Language Processing, TensorFlow for internal teams.",
-    "entities": [
-      [
-        56,
-        72,
-        "SKILL"
-      ],
-      [
-        74,
-        101,
-        "SKILL"
-      ],
-      [
-        103,
-        113,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Applied prepared model development pipelines with Deep Learning, TensorFlow, Natural Language Processing across multiple projects.",
-    "entities": [
-      [
-        50,
-        63,
-        "SKILL"
-      ],
-      [
-        65,
-        75,
-        "SKILL"
-      ],
-      [
-        77,
-        104,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Used developed predictive analytics workflows with Natural Language Processing, Pandas, NumPy in a production environment.",
-    "entities": [
-      [
-        51,
-        78,
-        "SKILL"
-      ],
-      [
-        80,
-        86,
-        "SKILL"
-      ],
-      [
-        88,
-        93,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Delivered solutions by built intelligent data applications with Computer Vision, Deep Learning, Scikit-Learn to improve reliability and maintainability.",
-    "entities": [
-      [
-        64,
-        79,
-        "SKILL"
-      ],
-      [
-        81,
-        94,
-        "SKILL"
-      ],
-      [
-        96,
-        108,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Collaborated on systems using evaluated machine learning experiments with PyTorch, Computer Vision for scalable business applications.",
-    "entities": [
-      [
-        74,
-        81,
-        "SKILL"
-      ],
-      [
-        83,
-        98,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Designed and prepared model development pipelines with TensorFlow, XGBoost, Machine Learning while documenting implementation decisions.",
-    "entities": [
-      [
-        55,
-        65,
-        "SKILL"
-      ],
-      [
-        67,
-        74,
-        "SKILL"
-      ],
-      [
-        76,
-        92,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Built and developed predictive analytics workflows with Scikit-Learn, Machine Learning, XGBoost for internal teams.",
-    "entities": [
-      [
-        56,
-        68,
-        "SKILL"
-      ],
-      [
-        70,
-        86,
-        "SKILL"
-      ],
-      [
-        88,
-        95,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Worked with built intelligent data applications with XGBoost, Computer Vision, PyTorch across multiple projects.",
-    "entities": [
-      [
-        53,
-        60,
-        "SKILL"
-      ],
-      [
-        62,
-        77,
-        "SKILL"
-      ],
-      [
-        79,
-        86,
-        "SKILL"
-      ]
-    ]
-  },
-  {
     "text": "Designed and automated deployment workflows with Docker, Terraform, Ansible for internal teams.",
     "entities": [
       [
@@ -2775,196 +2395,6 @@
       [
         86,
         100,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Designed and automated deployment workflows with Grafana, Linux, Kubernetes for scalable business applications.",
-    "entities": [
-      [
-        49,
-        56,
-        "SKILL"
-      ],
-      [
-        58,
-        63,
-        "SKILL"
-      ],
-      [
-        65,
-        75,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Built and managed scalable infrastructure with CI/CD, Grafana while documenting implementation decisions.",
-    "entities": [
-      [
-        47,
-        52,
-        "SKILL"
-      ],
-      [
-        54,
-        61,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Worked with improved release reliability with Docker, Terraform, Ansible for internal teams.",
-    "entities": [
-      [
-        46,
-        52,
-        "SKILL"
-      ],
-      [
-        54,
-        63,
-        "SKILL"
-      ],
-      [
-        65,
-        72,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Applied monitored production services with Kubernetes, Ansible, Terraform across multiple projects.",
-    "entities": [
-      [
-        43,
-        53,
-        "SKILL"
-      ],
-      [
-        55,
-        62,
-        "SKILL"
-      ],
-      [
-        64,
-        73,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Used automated deployment workflows with Terraform, Grafana, CI/CD in a production environment.",
-    "entities": [
-      [
-        41,
-        50,
-        "SKILL"
-      ],
-      [
-        52,
-        59,
-        "SKILL"
-      ],
-      [
-        61,
-        66,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Delivered solutions by managed scalable infrastructure with Jenkins, Kubernetes, Linux to improve reliability and maintainability.",
-    "entities": [
-      [
-        60,
-        67,
-        "SKILL"
-      ],
-      [
-        69,
-        79,
-        "SKILL"
-      ],
-      [
-        81,
-        86,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Collaborated on systems using improved release reliability with GitHub Actions, Jenkins for scalable business applications.",
-    "entities": [
-      [
-        64,
-        78,
-        "SKILL"
-      ],
-      [
-        80,
-        87,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Designed and monitored production services with Ansible, Prometheus, Docker while documenting implementation decisions.",
-    "entities": [
-      [
-        48,
-        55,
-        "SKILL"
-      ],
-      [
-        57,
-        67,
-        "SKILL"
-      ],
-      [
-        69,
-        75,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Built and automated deployment workflows with Linux, Docker, Prometheus for internal teams.",
-    "entities": [
-      [
-        46,
-        51,
-        "SKILL"
-      ],
-      [
-        53,
-        59,
-        "SKILL"
-      ],
-      [
-        61,
-        71,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Worked with managed scalable infrastructure with Prometheus, Jenkins, GitHub Actions across multiple projects.",
-    "entities": [
-      [
-        49,
-        59,
-        "SKILL"
-      ],
-      [
-        61,
-        68,
-        "SKILL"
-      ],
-      [
-        70,
-        84,
         "SKILL"
       ]
     ]
@@ -3525,176 +2955,6 @@
     ]
   },
   {
-    "text": "Built and optimized database workloads with dbt, Snowflake while documenting implementation decisions.",
-    "entities": [
-      [
-        44,
-        47,
-        "SKILL"
-      ],
-      [
-        49,
-        58,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Worked with built data processing workflows with SQL, MySQL, Apache Kafka for internal teams.",
-    "entities": [
-      [
-        49,
-        52,
-        "SKILL"
-      ],
-      [
-        54,
-        59,
-        "SKILL"
-      ],
-      [
-        61,
-        73,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Applied maintained high-volume data platforms with PostgreSQL, Apache Kafka, MySQL across multiple projects.",
-    "entities": [
-      [
-        51,
-        61,
-        "SKILL"
-      ],
-      [
-        63,
-        75,
-        "SKILL"
-      ],
-      [
-        77,
-        82,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Used designed reliable data services with MySQL, Snowflake, dbt in a production environment.",
-    "entities": [
-      [
-        42,
-        47,
-        "SKILL"
-      ],
-      [
-        49,
-        58,
-        "SKILL"
-      ],
-      [
-        60,
-        63,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Delivered solutions by optimized database workloads with MongoDB, PostgreSQL, Apache Spark to improve reliability and maintainability.",
-    "entities": [
-      [
-        57,
-        64,
-        "SKILL"
-      ],
-      [
-        66,
-        76,
-        "SKILL"
-      ],
-      [
-        78,
-        90,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Collaborated on systems using built data processing workflows with Redis, MongoDB for scalable business applications.",
-    "entities": [
-      [
-        67,
-        72,
-        "SKILL"
-      ],
-      [
-        74,
-        81,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Designed and maintained high-volume data platforms with Apache Kafka, Apache Airflow, SQL while documenting implementation decisions.",
-    "entities": [
-      [
-        56,
-        68,
-        "SKILL"
-      ],
-      [
-        70,
-        84,
-        "SKILL"
-      ],
-      [
-        86,
-        89,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Built and designed reliable data services with Apache Spark, SQL, Apache Airflow for internal teams.",
-    "entities": [
-      [
-        47,
-        59,
-        "SKILL"
-      ],
-      [
-        61,
-        64,
-        "SKILL"
-      ],
-      [
-        66,
-        80,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Worked with optimized database workloads with Apache Airflow, MongoDB, Redis across multiple projects.",
-    "entities": [
-      [
-        46,
-        60,
-        "SKILL"
-      ],
-      [
-        62,
-        69,
-        "SKILL"
-      ],
-      [
-        71,
-        76,
-        "SKILL"
-      ]
-    ]
-  },
-  {
     "text": "Designed and deployed cloud-native applications with Amazon Web Services, Google Cloud Platform, Terraform for internal teams.",
     "entities": [
       [
@@ -4250,176 +3510,6 @@
     ]
   },
   {
-    "text": "Built and managed cloud resources with Bash, Git while documenting implementation decisions.",
-    "entities": [
-      [
-        39,
-        43,
-        "SKILL"
-      ],
-      [
-        45,
-        48,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Worked with automated infrastructure operations with Amazon Web Services, Google Cloud Platform, Terraform for internal teams.",
-    "entities": [
-      [
-        53,
-        72,
-        "SKILL"
-      ],
-      [
-        74,
-        95,
-        "SKILL"
-      ],
-      [
-        97,
-        106,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Applied supported distributed services with Microsoft Azure, Terraform, Google Cloud Platform across multiple projects.",
-    "entities": [
-      [
-        44,
-        59,
-        "SKILL"
-      ],
-      [
-        61,
-        70,
-        "SKILL"
-      ],
-      [
-        72,
-        93,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Used deployed cloud-native applications with Google Cloud Platform, Git, Bash in a production environment.",
-    "entities": [
-      [
-        45,
-        66,
-        "SKILL"
-      ],
-      [
-        68,
-        71,
-        "SKILL"
-      ],
-      [
-        73,
-        77,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Delivered solutions by managed cloud resources with AWS Lambda, Microsoft Azure, Docker to improve reliability and maintainability.",
-    "entities": [
-      [
-        52,
-        62,
-        "SKILL"
-      ],
-      [
-        64,
-        79,
-        "SKILL"
-      ],
-      [
-        81,
-        87,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Collaborated on systems using automated infrastructure operations with Google BigQuery, AWS Lambda for scalable business applications.",
-    "entities": [
-      [
-        71,
-        86,
-        "SKILL"
-      ],
-      [
-        88,
-        98,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Designed and supported distributed services with Terraform, Kubernetes, Amazon Web Services while documenting implementation decisions.",
-    "entities": [
-      [
-        49,
-        58,
-        "SKILL"
-      ],
-      [
-        60,
-        70,
-        "SKILL"
-      ],
-      [
-        72,
-        91,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Built and deployed cloud-native applications with Docker, Amazon Web Services, Kubernetes for internal teams.",
-    "entities": [
-      [
-        50,
-        56,
-        "SKILL"
-      ],
-      [
-        58,
-        77,
-        "SKILL"
-      ],
-      [
-        79,
-        89,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Worked with managed cloud resources with Kubernetes, AWS Lambda, Google BigQuery across multiple projects.",
-    "entities": [
-      [
-        41,
-        51,
-        "SKILL"
-      ],
-      [
-        53,
-        63,
-        "SKILL"
-      ],
-      [
-        65,
-        80,
-        "SKILL"
-      ]
-    ]
-  },
-  {
     "text": "Designed and coordinated cross-functional delivery with Agile, Jira, Problem Solving for internal teams.",
     "entities": [
       [
@@ -4955,196 +4045,6 @@
     ]
   },
   {
-    "text": "Designed and coordinated cross-functional delivery with Teamwork, Project Management, Scrum for scalable business applications.",
-    "entities": [
-      [
-        56,
-        64,
-        "SKILL"
-      ],
-      [
-        66,
-        84,
-        "SKILL"
-      ],
-      [
-        86,
-        91,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Built and supported collaborative project execution with Critical Thinking, Teamwork while documenting implementation decisions.",
-    "entities": [
-      [
-        57,
-        74,
-        "SKILL"
-      ],
-      [
-        76,
-        84,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Worked with managed project milestones with Agile, Jira, Problem Solving for internal teams.",
-    "entities": [
-      [
-        44,
-        49,
-        "SKILL"
-      ],
-      [
-        51,
-        55,
-        "SKILL"
-      ],
-      [
-        57,
-        72,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Applied worked with stakeholders with Scrum, Problem Solving, Jira across multiple projects.",
-    "entities": [
-      [
-        38,
-        43,
-        "SKILL"
-      ],
-      [
-        45,
-        60,
-        "SKILL"
-      ],
-      [
-        62,
-        66,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Used coordinated cross-functional delivery with Jira, Teamwork, Critical Thinking in a production environment.",
-    "entities": [
-      [
-        48,
-        52,
-        "SKILL"
-      ],
-      [
-        54,
-        62,
-        "SKILL"
-      ],
-      [
-        64,
-        81,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Delivered solutions by supported collaborative project execution with Communication, Scrum, Project Management to improve reliability and maintainability.",
-    "entities": [
-      [
-        70,
-        83,
-        "SKILL"
-      ],
-      [
-        85,
-        90,
-        "SKILL"
-      ],
-      [
-        92,
-        110,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Collaborated on systems using managed project milestones with Leadership, Communication for scalable business applications.",
-    "entities": [
-      [
-        62,
-        72,
-        "SKILL"
-      ],
-      [
-        74,
-        87,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Designed and worked with stakeholders with Problem Solving, Time Management, Agile while documenting implementation decisions.",
-    "entities": [
-      [
-        43,
-        58,
-        "SKILL"
-      ],
-      [
-        60,
-        75,
-        "SKILL"
-      ],
-      [
-        77,
-        82,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Built and coordinated cross-functional delivery with Project Management, Agile, Time Management for internal teams.",
-    "entities": [
-      [
-        53,
-        71,
-        "SKILL"
-      ],
-      [
-        73,
-        78,
-        "SKILL"
-      ],
-      [
-        80,
-        95,
-        "SKILL"
-      ]
-    ]
-  },
-  {
-    "text": "Worked with supported collaborative project execution with Time Management, Communication, Leadership across multiple projects.",
-    "entities": [
-      [
-        59,
-        74,
-        "SKILL"
-      ],
-      [
-        76,
-        89,
-        "SKILL"
-      ],
-      [
-        91,
-        101,
-        "SKILL"
-      ]
-    ]
-  },
-  {
     "text": "Coordinated weekly meetings and prepared status updates for project stakeholders for department 1.",
     "entities": []
   },
@@ -5270,6 +4170,238 @@
   },
   {
     "text": "Organized documentation, maintained records, and supported routine office operations.",
+    "entities": []
+  },
+  {
+    "text": "Prepared weekly status summaries and shared progress updates with department managers.",
+    "entities": []
+  },
+  {
+    "text": "Arranged interview schedules and confirmed meeting times with shortlisted applicants.",
+    "entities": []
+  },
+  {
+    "text": "Reviewed incoming forms and checked that required fields were completed.",
+    "entities": []
+  },
+  {
+    "text": "Filed invoices by date and forwarded payment queries to the accounts department.",
+    "entities": []
+  },
+  {
+    "text": "Updated customer records after receiving approved changes from account representatives.",
+    "entities": []
+  },
+  {
+    "text": "Collected attendance sheets and prepared a monthly summary for the office coordinator.",
+    "entities": []
+  },
+  {
+    "text": "Drafted meeting agendas and circulated them before scheduled team discussions.",
+    "entities": []
+  },
+  {
+    "text": "Checked delivery notes against purchase orders and reported missing paperwork.",
+    "entities": []
+  },
+  {
+    "text": "Organized digital folders so staff could locate current project documents.",
+    "entities": []
+  },
+  {
+    "text": "Answered routine enquiries and directed complex requests to the appropriate team.",
+    "entities": []
+  },
+  {
+    "text": "Recorded visitor details and issued temporary access passes at the reception desk.",
+    "entities": []
+  },
+  {
+    "text": "Compared monthly expense statements and highlighted entries requiring clarification.",
+    "entities": []
+  },
+  {
+    "text": "Prepared presentation materials for the quarterly departmental review.",
+    "entities": []
+  },
+  {
+    "text": "Followed up with suppliers about expected delivery dates and outstanding documents.",
+    "entities": []
+  },
+  {
+    "text": "Maintained a register of incoming and outgoing correspondence.",
+    "entities": []
+  },
+  {
+    "text": "Helped arrange travel bookings and accommodation for visiting staff.",
+    "entities": []
+  },
+  {
+    "text": "Checked submitted applications for missing signatures and supporting documents.",
+    "entities": []
+  },
+  {
+    "text": "Summarized customer feedback forms for discussion at the monthly service meeting.",
+    "entities": []
+  },
+  {
+    "text": "Updated the staff leave calendar after receiving manager approvals.",
+    "entities": []
+  },
+  {
+    "text": "Prepared a list of pending tasks for the next shift handover.",
+    "entities": []
+  },
+  {
+    "text": "Sorted archived files according to the department's retention schedule.",
+    "entities": []
+  },
+  {
+    "text": "Welcomed visitors and informed employees when their appointments arrived.",
+    "entities": []
+  },
+  {
+    "text": "Recorded minutes during project meetings and circulated the agreed action list.",
+    "entities": []
+  },
+  {
+    "text": "Verified that expense claims included receipts before sending them for approval.",
+    "entities": []
+  },
+  {
+    "text": "Contacted applicants to confirm interview attendance and arrival instructions.",
+    "entities": []
+  },
+  {
+    "text": "Prepared labels and organized paper files for the annual records review.",
+    "entities": []
+  },
+  {
+    "text": "Monitored the shared inbox and assigned incoming requests to relevant teams.",
+    "entities": []
+  },
+  {
+    "text": "Compared stock counts with the latest inventory sheets and noted discrepancies.",
+    "entities": []
+  },
+  {
+    "text": "Helped coordinate venue arrangements for an internal training day.",
+    "entities": []
+  },
+  {
+    "text": "Reviewed draft announcements for spelling, formatting, and missing details.",
+    "entities": []
+  },
+  {
+    "text": "Entered approved supplier details into the department's contact register.",
+    "entities": []
+  },
+  {
+    "text": "Prepared a summary of customer complaints for the weekly service review.",
+    "entities": []
+  },
+  {
+    "text": "Checked room bookings and resolved duplicate meeting reservations.",
+    "entities": []
+  },
+  {
+    "text": "Distributed updated policy documents to employees across the department.",
+    "entities": []
+  },
+  {
+    "text": "Collected signed forms from staff and stored them in the correct folders.",
+    "entities": []
+  },
+  {
+    "text": "Prepared a checklist of documents needed for new employee joining formalities.",
+    "entities": []
+  },
+  {
+    "text": "Confirmed event registrations and sent attendance instructions to participants.",
+    "entities": []
+  },
+  {
+    "text": "Reconciled delivery receipts with the department's goods received register.",
+    "entities": []
+  },
+  {
+    "text": "Maintained a log of equipment loans and their expected return dates.",
+    "entities": []
+  },
+  {
+    "text": "Compiled survey responses and grouped comments by common themes.",
+    "entities": []
+  },
+  {
+    "text": "Scheduled routine maintenance visits with the building services provider.",
+    "entities": []
+  },
+  {
+    "text": "Prepared the agenda and attendance list for the annual department meeting.",
+    "entities": []
+  },
+  {
+    "text": "Reviewed records for incomplete dates and requested corrections from owners.",
+    "entities": []
+  },
+  {
+    "text": "Forwarded customer requests to the relevant service representatives.",
+    "entities": []
+  },
+  {
+    "text": "Tracked pending approvals and reminded responsible managers before deadlines.",
+    "entities": []
+  },
+  {
+    "text": "Organized refreshments and seating arrangements for visiting delegates.",
+    "entities": []
+  },
+  {
+    "text": "Checked that archived contracts had the correct reference numbers.",
+    "entities": []
+  },
+  {
+    "text": "Prepared a handover note covering unresolved requests at the end of the day.",
+    "entities": []
+  },
+  {
+    "text": "Recorded parcel arrivals and notified the employees listed as recipients.",
+    "entities": []
+  },
+  {
+    "text": "Updated the department noticeboard with approved announcements.",
+    "entities": []
+  },
+  {
+    "text": "Compared attendance records with submitted leave forms for the monthly review.",
+    "entities": []
+  },
+  {
+    "text": "Prepared envelopes and supporting paperwork for outgoing correspondence.",
+    "entities": []
+  },
+  {
+    "text": "Collected feedback after an internal event and summarized the responses.",
+    "entities": []
+  },
+  {
+    "text": "Reviewed the meeting room calendar and suggested available time slots.",
+    "entities": []
+  },
+  {
+    "text": "Filed completed service requests and marked them as closed in the register.",
+    "entities": []
+  },
+  {
+    "text": "Prepared a list of office supplies that needed replenishment.",
+    "entities": []
+  },
+  {
+    "text": "Checked submitted travel claims for missing dates and receipt copies.",
+    "entities": []
+  },
+  {
+    "text": "Recorded returned visitor badges and updated the daily reception register.",
     "entities": []
   }
 ]
