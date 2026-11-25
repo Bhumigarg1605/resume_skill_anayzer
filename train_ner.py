@@ -26,66 +26,46 @@ def load_annotations(file_path: str) -> List[Dict[str, Any]]:
 def create_docbins(
     training_data: List[Dict[str, Any]],
     output_dir: str = "models",
-    train_ratio: float = 0.8,
     seed: int = 42,
-) -> Tuple[str, str]:
-    """Splits annotations into train/dev sets and serializes to spaCy DocBin or JSON."""
+) -> Tuple[str, str, str]:
+    """Creates reproducible 70:15:15 train/dev/test DocBin splits."""
     random.seed(seed)
     shuffled = list(training_data)
     random.shuffle(shuffled)
-
-    split_idx = int(len(shuffled) * train_ratio)
-    train_data = shuffled[:split_idx]
-    dev_data = shuffled[split_idx:]
-
+    train_end = int(len(shuffled) * 0.70)
+    dev_end = int(len(shuffled) * 0.85)
+    splits = {
+        "train": shuffled[:train_end],
+        "dev": shuffled[train_end:dev_end],
+        "test": shuffled[dev_end:],
+    }
     os.makedirs(output_dir, exist_ok=True)
-    train_path = os.path.join(output_dir, "train.spacy")
-    dev_path = os.path.join(output_dir, "dev.spacy")
-
-    # Try spaCy DocBin serialization
+    paths = {name: os.path.join(output_dir, f"{name}.spacy") for name in splits}
     try:
         import spacy
         from spacy.tokens import DocBin
-
         nlp = spacy.blank("en")
-
-        def make_docbin(records):
+        for name, records in splits.items():
             doc_bin = DocBin()
-            valid_docs = 0
             for item in records:
-                text = item["text"]
-                entities = item.get("entities", [])
-                doc = nlp.make_doc(text)
-                ents = []
-                for start, end, label in entities:
-                    span = doc.char_span(start, end, label=label, alignment_mode="contract")
+                doc = nlp.make_doc(item["text"])
+                spans = []
+                for start, end, label in item.get("entities", []):
+                    span = doc.char_span(start, end, label=label, alignment_mode="strict")
                     if span is not None:
-                        ents.append(span)
-                doc.ents = ents
+                        spans.append(span)
+                doc.ents = spans
                 doc_bin.add(doc)
-                valid_docs += 1
-            return doc_bin
-
-        train_bin = make_docbin(train_data)
-        train_bin.to_disk(train_path)
-
-        dev_bin = make_docbin(dev_data)
-        dev_bin.to_disk(dev_path)
-
-        print(f"Saved {len(train_data)} train docs to {train_path}")
-        print(f"Saved {len(dev_data)} dev docs to {dev_path}")
-
+            doc_bin.to_disk(paths[name])
+            print(f"Saved {len(records)} {name} docs to {paths[name]}")
     except ImportError:
-        # Fallback JSON serialization if spaCy not yet installed
-        train_json = os.path.join(output_dir, "train_split.json")
-        dev_json = os.path.join(output_dir, "dev_split.json")
-        with open(train_json, "w", encoding="utf-8") as f:
-            json.dump(train_data, f, indent=2)
-        with open(dev_json, "w", encoding="utf-8") as f:
-            json.dump(dev_data, f, indent=2)
-        print(f"Serialized raw training splits to {train_json} and {dev_json}")
-
-    return train_path, dev_path
+        for name, records in splits.items():
+            json_path = os.path.join(output_dir, f"{name}_split.json")
+            with open(json_path, "w", encoding="utf-8") as f:
+                json.dump(records, f, indent=2)
+            paths[name] = json_path
+            print(f"Saved {len(records)} {name} records to {json_path}")
+    return paths["train"], paths["dev"], paths["test"]
 
 
 def train_model(
