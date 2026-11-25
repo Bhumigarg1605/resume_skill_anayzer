@@ -3,9 +3,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![spaCy](https://img.shields.io/badge/spaCy-NER-09A3D5.svg)](https://spacy.io/)
-[![Sentence-Transformers](https://img.shields.io/badge/Sentence--Transformers-all--MiniLM--L6--v2-orange.svg)](https://www.sbert.net/)
 [![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B.svg)](https://streamlit.io/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
 
@@ -15,7 +13,7 @@ The **Resume Skill Analyzer** is a machine-learning application designed to brid
 
 This project implements an end-to-end NLP and Representation Learning pipeline:
 1. **Multi-Format Parsing:** Robust ingestion of `.pdf`, `.docx`, and `.txt` files with formatting noise removal.
-2. **Entity Recognition (NER):** Custom spaCy token-level extraction fine-tuned for the `SKILL` entity class, augmented with rule-based phrase matchers.
+2. **Entity Recognition (NER):** A custom spaCy NER model can be trained for the `SKILL` entity class and is combined with rule-based taxonomy phrase matching. Until trained model artifacts are committed, extraction uses the available spaCy/taxonomy fallback.
 3. **Taxonomy Normalization:** Canonicalization of extracted variants to standard **ESCO / O*NET** concepts using RapidFuzz string distance and alias indexing.
 4. **Semantic Embedding:** Optional dense vector generation via **Sentence-BERT (`all-MiniLM-L6-v2`)**; lightweight character/token n-gram similarity is used by default for easier cloud deployment.
 5. **Calibrated Thresholding:** Directional cosine similarity matching using an empirically calibrated threshold ($\tau \approx 0.75$).
@@ -31,8 +29,8 @@ flowchart TD
     E["Job Description / Predefined Roles"] --> F["Job Skill Extractor\n(Requirement Segmentation)"]
     F --> G["Target Role Canonical Skills"]
     
-    D --> H["Candidate Skill Vectors\n(Sentence-BERT all-MiniLM-L6-v2)"]
-    G --> I["Job Requirement Vectors\n(Sentence-BERT all-MiniLM-L6-v2)"]
+    D --> H["Candidate Skill Vectors\n(optional Sentence-BERT / default n-grams)"]
+    G --> I["Job Requirement Vectors\n(optional Sentence-BERT / default n-grams)"]
     
     H & I --> J["Pairwise Cosine Similarity Matrix\nS_ij = (u_i · v_j) / (||u_i|| ||v_j||)"]
     J --> K{"Threshold Check\n(tau >= 0.75)"}
@@ -78,15 +76,16 @@ Resume_Skill_Analyzer/
 │   └── 05_model_evaluation.ipynb    # Empirical benchmark against naive baselines
 ├── models/
 │   ├── skill_ner/             # Saved fine-tuned spaCy NER model & manifests
-│   ├── train_split.json       # Partitioned training dataset
-│   └── dev_split.json         # Partitioned validation dataset
+│   ├── train.spacy            # Generated training DocBin (local)
+│   ├── dev.spacy              # Generated validation DocBin (local)
+│   └── test.spacy             # Generated test DocBin (local)
 ├── src/
 │   ├── __init__.py            # Package initialization & exports
 │   ├── resume_parser.py       # PDF/DOCX parsing (pdfplumber, docx, fallbacks)
 │   ├── skill_extractor.py     # Hybrid spaCy NER & PhraseMatcher engine
 │   ├── skill_normalizer.py    # RapidFuzz + ESCO taxonomy canonicalization
 │   ├── job_skill_extractor.py # Job requirement extraction & role catalog
-│   ├── semantic_matcher.py    # Sentence-Transformers cosine scoring
+│   ├── semantic_matcher.py    # Optional SBERT / lightweight similarity scoring
 │   ├── gap_analyzer.py        # Skill gap algebra & upskilling recommendations
 │   └── evaluation.py          # Benchmark metrics (P, R, F1) & Plotly charts
 ├── tests/
@@ -104,8 +103,8 @@ Resume_Skill_Analyzer/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/Resume_Skill_Analyzer.git
-cd Resume_Skill_Analyzer
+git clone https://github.com/Bhumigarg1605/resume_skill_anayzer.git
+cd resume_skill_anayzer
 ```
 
 ### 2. Create and Activate a Virtual Environment
@@ -163,7 +162,7 @@ python -m unittest discover -s tests -p "test_*.py" -v
 
 ## 📊 Empirical Benchmarking Results
 
-The proposed ML pipeline was evaluated against ground-truth technical pairs comprising exact matches, acronyms, synonyms, semantic relationships, and negative distractors:
+The application includes a small, hand-curated benchmark of technical skill pairs covering exact matches, aliases, acronyms, related terms, and negative examples. These are illustrative internal test cases, not an independently collected or externally validated benchmark. The displayed metrics are calculated from this fixed set and can vary with the selected similarity mode and threshold:
 
 | Model Architecture | Precision (%) | Recall (%) | F1-Score (%) | Key Limitations |
 | :--- | :---: | :---: | :---: | :--- |
@@ -190,4 +189,4 @@ All notebooks in `notebooks/` follow rigorous ML storytelling and data analysis 
 ---
 
 ## 📜 License
-This project is open-sourced under the **MIT License**.
+No license file is currently included in this repository. Do not assume the project is MIT-licensed unless the repository owner adds an explicit license.
