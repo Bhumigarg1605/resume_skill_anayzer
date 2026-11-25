@@ -11,13 +11,13 @@
 
 ## 📌 Executive Summary & Architecture
 
-The **Resume Skill Analyzer** is a university-grade Machine Learning system designed to bridge the semantic divide between candidate resumes and modern job requirements. Traditional applicant tracking systems (ATS) rely heavily on naive substring keyword searches, resulting in high false-negative rates when candidates describe equivalent competencies using synonyms, acronyms, or related tooling (e.g., `ML` vs `Machine Learning`, `K8s` vs `Kubernetes`, `PyTorch` vs `Deep Learning`).
+The **Resume Skill Analyzer** is a machine-learning application designed to bridge the semantic divide between candidate resumes and modern job requirements. Traditional applicant tracking systems (ATS) rely heavily on naive substring keyword searches, resulting in high false-negative rates when candidates describe equivalent competencies using synonyms, acronyms, or related tooling (e.g., `ML` vs `Machine Learning`, `K8s` vs `Kubernetes`, `PyTorch` vs `Deep Learning`).
 
 This project implements an end-to-end NLP and Representation Learning pipeline:
 1. **Multi-Format Parsing:** Robust ingestion of `.pdf`, `.docx`, and `.txt` files with formatting noise removal.
 2. **Entity Recognition (NER):** Custom spaCy token-level extraction fine-tuned for the `SKILL` entity class, augmented with rule-based phrase matchers.
 3. **Taxonomy Normalization:** Canonicalization of extracted variants to standard **ESCO / O*NET** concepts using RapidFuzz string distance and alias indexing.
-4. **Semantic Embedding:** Dense vector generation via **Sentence-BERT (`all-MiniLM-L6-v2`)**.
+4. **Semantic Embedding:** Optional dense vector generation via **Sentence-BERT (`all-MiniLM-L6-v2`)**; lightweight character/token n-gram similarity is used by default for easier cloud deployment.
 5. **Calibrated Thresholding:** Directional cosine similarity matching using an empirically calibrated threshold ($\tau \approx 0.75$).
 6. **Gap Algebra & Scoring:** Quantitative match percentage calculation and targeted learning recommendations.
 7. **Interactive Dashboard:** Modern multi-tab Streamlit web application.
@@ -93,7 +93,8 @@ Resume_Skill_Analyzer/
 │   └── test_pipeline.py       # Comprehensive unit test suite (19 test cases)
 ├── app.py                     # Streamlit multi-tab interactive UI dashboard
 ├── train_ner.py               # Standalone spaCy training script
-├── requirements.txt           # Production pinned dependencies
+├── requirements.txt           # Lightweight Streamlit runtime dependencies
+├── requirements-ml.txt        # Optional training / research dependencies
 └── README.md                  # Project documentation & manual
 ```
 
@@ -119,6 +120,11 @@ source .venv/bin/activate        # On macOS/Linux
 pip install -r requirements.txt
 ```
 
+For NER training, Sentence-BERT, and notebook/research tools, install the optional dependencies:
+```bash
+pip install -r requirements-ml.txt
+```
+
 ### 4. (Optional) Download Base spaCy English Model
 ```bash
 python -m spacy download en_core_web_sm
@@ -138,18 +144,20 @@ streamlit run app.py
 * **Tab 3 (Semantic Inspector):** Interactively test cosine similarity between arbitrary technical phrases.
 * **Tab 4 (ESCO Taxonomy Browser):** Filter and search through 110+ canonical technical concepts.
 
-### B. Train / Fine-Tune the NER Model
-To convert annotated data to `DocBin` format and train the custom spaCy model:
+### B. Train / Fine-Tune the Optional NER Model
+The repository contains 300 annotated records (210 with skill entities and 90 without). The script uses a reproducible 70:15:15 split (210 train, 45 validation, 45 test). Install `requirements-ml.txt`, then run:
 ```bash
 python train_ner.py --epochs 30 --dropout 0.2 --output models/skill_ner
 ```
+
+Training generates serialized spaCy model files locally in `models/skill_ner/`. The committed repository currently contains only the manifest and taxonomy patterns, not trained model weights. After a successful local run, verify the generated files and commit them if you want Streamlit Cloud to load that trained model. Otherwise, the app uses the taxonomy matcher fallback.
 
 ### C. Run the Unit Test Suite
 Execute the automated test suite covering all modules:
 ```bash
 python -m unittest discover -s tests -p "test_*.py" -v
 ```
-*(All 19 tests pass in ~0.12s)*
+*(Run the tests locally and use the actual test output when reporting results.)*
 
 ---
 
@@ -161,7 +169,7 @@ The proposed ML pipeline was evaluated against ground-truth technical pairs comp
 | :--- | :---: | :---: | :---: | :--- |
 | **Naive Keyword Matcher** | 80.0% | 13.3% | 22.9% | Fails on acronyms (`ML`), variants (`sklearn`), and synonyms |
 | **Token Jaccard Matcher** | 100.0% | 6.7% | 12.5% | Fails on single-word aliases and abbreviation mismatches |
-| **Proposed SBERT + ESCO Pipeline** | **100.0%** | **90.0%** | **94.7%** | **Captures semantic synonyms while rejecting cross-domain false matches** |
+| **Proposed semantic + taxonomy pipeline** | **100.0%** | **90.0%** | **94.7%** | **Captures semantic synonyms while rejecting cross-domain false matches** |
 
 ### Why Semantic ML Outperforms Keyword Search
 * **Acronym Resolution:** `K8s` correctly resolves to `Kubernetes`; `DL` resolves to `Deep Learning`.
