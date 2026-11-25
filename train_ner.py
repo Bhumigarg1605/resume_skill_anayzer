@@ -132,7 +132,7 @@ def train_model(
 
         other_pipes = [pipe for pipe in nlp.pipe_names if pipe != "ner"]
         with nlp.disable_pipes(*other_pipes):
-            optimizer = nlp.resume_training() if had_ner else nlp.initialize()
+            optimizer = nlp.resume_training() if had_ner else nlp.initialize(get_examples=lambda: train_examples)
             print(f"Training records: {len(train_examples)} | Validation records: {len(dev_examples)} | Test records: {len(test_examples)}")
             print(f"Beginning training across {epochs} epochs...")
             for epoch in range(1, epochs + 1):
@@ -152,7 +152,7 @@ def train_model(
                 for example in split_examples:
                     predicted_doc = nlp(example.reference.text)
                     predicted_examples.append(Example(predicted_doc, example.reference))
-                scores = nlp.evaluate(predicted_examples)
+                scores = Scorer().score(predicted_examples)
                 print(f"{split_name} NER scores: P={scores.get('ents_p', 0):.4f}, R={scores.get('ents_r', 0):.4f}, F1={scores.get('ents_f', 0):.4f}")
 
         # Save model
@@ -167,7 +167,7 @@ def train_model(
     # Write model manifest and metadata
     manifest = {
         "model_name": "skill_ner",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "labels": ["SKILL"],
         "architecture": "spaCy NER with taxonomy PhraseMatcher fallback",
         "model_status": "trained_and_serialized" if model_trained else "training_dependency_missing",
