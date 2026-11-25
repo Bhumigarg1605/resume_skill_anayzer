@@ -112,7 +112,7 @@ class BenchmarkEvaluator:
         if n1.lower() == n2.lower():
             return True
 
-        # 2. Semantic matching with SentenceTransformer
+        # 2. Similarity matching (Sentence-BERT when enabled; lightweight n-gram fallback otherwise)
         sim_result = self.matcher.match_skills([term1], [term2], threshold=threshold)
         return len(sim_result["matched_pairs"]) > 0
 
@@ -184,7 +184,7 @@ class BenchmarkEvaluator:
         return {
             "Naive Keyword Matching": naive,
             "Token Jaccard Baseline": jaccard,
-            "Proposed SBERT + ESCO Pipeline": proposed,
+            "Proposed Normalization + Similarity Pipeline": proposed,
         }
 
     def threshold_sensitivity_sweep(
