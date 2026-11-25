@@ -91,6 +91,7 @@ def train_model(
     create_docbins(data, output_dir=os.path.dirname(model_output_dir))
 
     # 2. Check spaCy availability
+    model_trained = False
     try:
         import spacy
         from spacy.training import Example
@@ -143,15 +144,20 @@ def train_model(
                 if epoch % 5 == 0 or epoch == epochs:
                     print(f"Epoch {epoch:02d}/{epochs:02d} | NER Loss: {losses.get('ner', 0.0):.4f}")
 
-            # Evaluate on held-out validation and test records; neither is used for updates.
-            from spacy.scorer import Scorer
+            # Evaluate predictions on held-out validation and test records.
+            # Score freshly predicted docs against their gold reference docs;
+            # scoring the original training Examples would score empty predictions.
             for split_name, split_examples in [("Validation", dev_examples), ("Test", test_examples)]:
-                scorer = Scorer()
-                scores = scorer.score(split_examples)
+                predicted_examples = []
+                for example in split_examples:
+                    predicted_doc = nlp(example.reference.text)
+                    predicted_examples.append(Example(predicted_doc, example.reference))
+                scores = nlp.evaluate(predicted_examples)
                 print(f"{split_name} NER scores: P={scores.get('ents_p', 0):.4f}, R={scores.get('ents_r', 0):.4f}, F1={scores.get('ents_f', 0):.4f}")
 
         # Save model
         nlp.to_disk(model_output_dir)
+        model_trained = True
         print(f"\nTrained spaCy NER model successfully saved to: {model_output_dir}")
 
     except ImportError:
@@ -163,7 +169,9 @@ def train_model(
         "model_name": "skill_ner",
         "version": "1.0.0",
         "labels": ["SKILL"],
-        "architecture": "Transition-based NER / PhraseMatcher hybrid",
+        "architecture": "spaCy NER with taxonomy PhraseMatcher fallback",
+        "model_status": "trained_and_serialized" if model_trained else "training_dependency_missing",
+        "model_artifacts_present": model_trained,
         "training_examples": len(train_records),
         "validation_examples": len(dev_records),
         "test_examples": len(test_records),
