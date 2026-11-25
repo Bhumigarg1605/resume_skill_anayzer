@@ -1,11 +1,18 @@
 {
   "model_name": "skill_ner",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "labels": [
     "SKILL"
   ],
-  "architecture": "Transition-based NER / PhraseMatcher hybrid",
-  "training_examples": 40,
+  "architecture": "spaCy NER with taxonomy PhraseMatcher fallback",
+  "model_status": "not_trained_weights_not_committed",
+  "model_artifacts_present": false,
+  "total_annotated_records": 300,
+  "training_examples": 210,
+  "validation_examples": 45,
+  "test_examples": 45,
+  "split": "70:15:15",
   "epochs": 30,
-  "base_model": "en_core_web_sm / blank:en"
+  "base_model": "en_core_web_sm if available, otherwise blank:en",
+  "note": "This repository snapshot contains the manifest and taxonomy patterns only. Run train_ner.py locally to generate serialized spaCy model files before claiming a trained NER model is deployed."
 }
