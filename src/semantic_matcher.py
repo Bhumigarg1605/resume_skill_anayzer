@@ -6,6 +6,7 @@ and pairwise cosine similarity scoring with configurable thresholding.
 """
 
 import math
+import os
 from typing import Any, Dict, List, Optional, Tuple, Union
 
 
@@ -22,7 +23,10 @@ class SemanticSkillMatcher:
         self.model = None
         self._is_transformer = False
 
-        self._load_model()
+        # Keep Streamlit Cloud lightweight by default. Install the optional
+        # ML extras and set RESUME_ANALYZER_USE_SBERT=1 to enable Sentence-BERT.
+        if os.getenv("RESUME_ANALYZER_USE_SBERT", "0").strip().lower() in {"1", "true", "yes"}:
+            self._load_model()
 
     def _load_model(self) -> None:
         """Attempts to load SentenceTransformer model; sets fallback if unavailable."""
