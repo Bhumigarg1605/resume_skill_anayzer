@@ -95,6 +95,7 @@ def train_model(
     try:
         import spacy
         from spacy.training import Example
+        from spacy.scorer import Scorer
         from spacy.util import minibatch, compounding
 
         print("\n--- Initializing spaCy NER Pipeline ---")
