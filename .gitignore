@@ -25,3 +25,11 @@ htmlcov/
 # Local IDE configuration
 .vscode/
 .idea/
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# Regenerable spaCy training DocBins
+models/train.spacy
+models/dev.spacy
+models/test.spacy
