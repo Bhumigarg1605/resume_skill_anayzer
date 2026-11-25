@@ -123,30 +123,51 @@ def train_model(
 
         ner.add_label("SKILL")
 
-        # Prepare Examples
-        examples = []
-        for item in data:
-            doc = nlp.make_doc(item["text"])
-            entities = []
-            for start, end, label in item.get("entities", []):
-                entities.append((start, end, label))
-            examples.append(Example.from_dict(doc, {"entities": entities}))
+        # Prepare examples using ONLY the training partition.
+        # Keep validation examples completely held out from optimizer updates.
+        random.seed(42)
+        shuffled = list(data)
+        random.shuffle(shuffled)
+        train_end = int(len(shuffled) * 0.70)
+        dev_end = int(len(shuffled) * 0.85)
+        train_records = shuffled[:train_end]
+        dev_records = shuffled[train_end:dev_end]
+        test_records = shuffled[dev_end:]
 
-        # Disable other pipes during training to preserve weights
+        def to_examples(records):
+            converted = []
+            for item in records:
+                doc = nlp.make_doc(item["text"])
+                entities = []
+                for start, end, label in item.get("entities", []):
+                    entities.append((start, end, label))
+                converted.append(Example.from_dict(doc, {"entities": entities}))
+            return converted
+
+        train_examples = to_examples(train_records)
+        dev_examples = to_examples(dev_records)
+        test_examples = to_examples(test_records)
+
         other_pipes = [pipe for pipe in nlp.pipe_names if pipe != "ner"]
         with nlp.disable_pipes(*other_pipes):
             optimizer = nlp.initialize() if "ner" not in nlp.pipe_names else nlp.resume_training()
+            print(f"Training records: {len(train_examples)} | Validation records: {len(dev_examples)} | Test records: {len(test_examples)}")
             print(f"Beginning training across {epochs} epochs...")
-
             for epoch in range(1, epochs + 1):
-                random.shuffle(examples)
+                random.shuffle(train_examples)
                 losses = {}
-                batches = minibatch(examples, size=compounding(4.0, 32.0, 1.001))
+                batches = minibatch(train_examples, size=compounding(4.0, 32.0, 1.001))
                 for batch in batches:
                     nlp.update(batch, drop=dropout, losses=losses, sgd=optimizer)
-
                 if epoch % 5 == 0 or epoch == epochs:
                     print(f"Epoch {epoch:02d}/{epochs:02d} | NER Loss: {losses.get('ner', 0.0):.4f}")
+
+            # Evaluate on held-out validation and test records; neither is used for updates.
+            from spacy.scorer import Scorer
+            for split_name, split_examples in [("Validation", dev_examples), ("Test", test_examples)]:
+                scorer = Scorer()
+                scores = scorer.score(split_examples)
+                print(f"{split_name} NER scores: P={scores.get('ents_p', 0):.4f}, R={scores.get('ents_r', 0):.4f}, F1={scores.get('ents_f', 0):.4f}")
 
         # Save model
         nlp.to_disk(model_output_dir)
@@ -162,7 +183,7 @@ def train_model(
         "version": "1.0.0",
         "labels": ["SKILL"],
         "architecture": "Transition-based NER / PhraseMatcher hybrid",
-        "training_examples": len(data),
+        "training_examples": len(train_records),\n        "validation_examples": len(dev_records),\n        "test_examples": len(test_records),\n        "total_annotated_records": len(data),
         "epochs": epochs,
         "base_model": "en_core_web_sm / blank:en",
     }
