@@ -2,7 +2,7 @@
 
 A university-grade ML application to extract skills from resumes (PDF/DOCX/TXT),
 map them to canonical ESCO taxonomy concepts, compute semantic similarity
-against job descriptions using Sentence-BERT, identify skill gaps, and benchmark
+against job descriptions using optional Sentence-BERT or lightweight similarity fallback, identify skill gaps, and benchmark
 against naive baseline matching algorithms.
 """
 
@@ -170,7 +170,7 @@ enable_normalization = st.sidebar.checkbox(
 
 matching_mode = st.sidebar.radio(
     "Algorithm Selection",
-    options=["Proposed SBERT + ESCO Pipeline", "Naive Substring Baseline"],
+    options=["Proposed Semantic + Taxonomy Pipeline", "Naive Substring Baseline"],
     index=0,
 )
 
@@ -198,7 +198,7 @@ st.sidebar.markdown(
     """
     <div style='font-size: 0.82rem; color: #64748B;'>
     <b>Resume Skill Analyzer v1.0.0</b><br>
-    Architecture: spaCy NER + Sentence-Transformers (all-MiniLM-L6-v2) + ESCO Taxonomy
+    Architecture: spaCy / taxonomy skill extraction + optional Sentence-BERT similarity
     </div>
     """,
     unsafe_allow_html=True,
