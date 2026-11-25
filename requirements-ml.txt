@@ -1,0 +1,17 @@
+# Optional ML / research dependencies
+# Install only when training spaCy NER or enabling Sentence-BERT embeddings.
+-r requirements.txt
+sentence-transformers>=2.2.2
+torch>=2.0.0
+transformers>=4.36.0
+scikit-learn>=1.3.2
+numpy>=1.24.4
+pandas>=2.1.4
+scipy>=1.11.4
+
+# Notebook, visualization and testing tools
+jupyter>=1.0.0
+ipykernel>=6.28.0
+matplotlib>=3.7.4
+seaborn>=0.13.0
+pytest>=7.4.4
