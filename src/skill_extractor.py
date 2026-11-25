@@ -30,6 +30,8 @@ class SkillExtractor:
         )
         self.normalizer = normalizer or SkillNormalizer()
         self.nlp = None
+        self.model_loaded = False
+        self.model_source = "taxonomy_fallback"
         self.phrase_matcher = None
         self._taxonomy_terms: Set[str] = set()
 
@@ -49,19 +51,31 @@ class SkillExtractor:
             import spacy
             from spacy.matcher import PhraseMatcher
 
-            # 1. Try loading trained custom model
-            if os.path.exists(self.model_path):
+            # 1. Load a custom model only when serialized spaCy artifacts exist.
+            # A folder containing only JSON metadata/patterns is not a trained model.
+            required_artifacts = ("config.cfg", "meta.json")
+            has_serialized_model = all(
+                os.path.isfile(os.path.join(self.model_path, name))
+                for name in required_artifacts
+            )
+            if has_serialized_model:
                 try:
                     self.nlp = spacy.load(self.model_path)
+                    self.model_loaded = "ner" in self.nlp.pipe_names
+                    if self.model_loaded:
+                        self.model_source = "custom_spacy_ner"
                 except Exception:
                     self.nlp = None
+                    self.model_loaded = False
 
-            # 2. Fall back to standard en_core_web_sm or blank english
+            # 2. Fall back to standard en_core_web_sm or blank English
             if self.nlp is None:
                 try:
                     self.nlp = spacy.load("en_core_web_sm")
+                    self.model_source = "en_core_web_sm_plus_taxonomy"
                 except Exception:
                     self.nlp = spacy.blank("en")
+                    self.model_source = "blank_spacy_plus_taxonomy"
 
             # 3. Add PhraseMatcher for taxonomy concepts
             self.phrase_matcher = PhraseMatcher(self.nlp.vocab, attr="LOWER")
