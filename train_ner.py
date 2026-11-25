@@ -76,6 +76,15 @@ def train_model(
 ) -> None:
     """Trains or fine-tunes spaCy NER model for SKILL detection."""
     data = load_annotations(annotations_path)
+    # Create one deterministic split shared by training, evaluation, and metadata.
+    random.seed(42)
+    shuffled = list(data)
+    random.shuffle(shuffled)
+    train_end = int(len(shuffled) * 0.70)
+    dev_end = int(len(shuffled) * 0.85)
+    train_records = shuffled[:train_end]
+    dev_records = shuffled[train_end:dev_end]
+    test_records = shuffled[dev_end:]
     os.makedirs(model_output_dir, exist_ok=True)
 
     # 1. Prepare DocBins
@@ -106,15 +115,6 @@ def train_model(
 
         # Prepare examples using ONLY the training partition.
         # Keep validation examples completely held out from optimizer updates.
-        random.seed(42)
-        shuffled = list(data)
-        random.shuffle(shuffled)
-        train_end = int(len(shuffled) * 0.70)
-        dev_end = int(len(shuffled) * 0.85)
-        train_records = shuffled[:train_end]
-        dev_records = shuffled[train_end:dev_end]
-        test_records = shuffled[dev_end:]
-
         def to_examples(records):
             converted = []
             for item in records:
@@ -164,7 +164,10 @@ def train_model(
         "version": "1.0.0",
         "labels": ["SKILL"],
         "architecture": "Transition-based NER / PhraseMatcher hybrid",
-        "training_examples": len(train_records),\n        "validation_examples": len(dev_records),\n        "test_examples": len(test_records),\n        "total_annotated_records": len(data),
+        "training_examples": len(train_records),
+        "validation_examples": len(dev_records),
+        "test_examples": len(test_records),
+        "total_annotated_records": len(data),
         "epochs": epochs,
         "base_model": "en_core_web_sm / blank:en",
     }
