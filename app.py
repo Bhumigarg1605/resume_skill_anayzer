@@ -523,22 +523,21 @@ with tab_benchmarks:
     st.subheader("Model Performance & Empirical Evaluation")
     st.markdown(
         """
-        Comparison of the proposed **Sentence-BERT + ESCO Normalization** pipeline
-        against traditional keyword and token-overlap baselines across ground-truth technical pairs.
+        Comparison of the proposed **taxonomy normalization + similarity** pipeline against keyword and token-overlap baselines on a small, curated set of technical skill pairs. Sentence-BERT is optional; the default deployment uses lightweight character/token n-gram similarity.
         """
     )
 
     benchmark_data = evaluator.run_full_benchmark(threshold=similarity_threshold)
 
     # Metric Columns for proposed model
-    prop_metrics = benchmark_data["Proposed SBERT + ESCO Pipeline"]
+    prop_metrics = benchmark_data["Proposed Normalization + Similarity Pipeline"]
     bm1, bm2, bm3, bm4 = st.columns(4)
     with bm1:
-        st.metric("Proposed Precision", f"{prop_metrics['Precision'] * 100:.1f}%", "+15.0% vs Naive")
+        st.metric("Proposed Precision", f"{prop_metrics['Precision'] * 100:.1f}%", f"{(prop_metrics['Precision'] - benchmark_data['Naive Keyword Matching']['Precision']) * 100:+.1f} pp vs Naive")
     with bm2:
-        st.metric("Proposed Recall", f"{prop_metrics['Recall'] * 100:.1f}%", "+76.7% vs Naive")
+        st.metric("Proposed Recall", f"{prop_metrics['Recall'] * 100:.1f}%", f"{(prop_metrics['Recall'] - benchmark_data['Naive Keyword Matching']['Recall']) * 100:+.1f} pp vs Naive")
     with bm3:
-        st.metric("Proposed F1-Score", f"{prop_metrics['F1'] * 100:.1f}%", "+71.9% vs Naive")
+        st.metric("Proposed F1-Score", f"{prop_metrics['F1'] * 100:.1f}%", f"{(prop_metrics['F1'] - benchmark_data['Naive Keyword Matching']['F1']) * 100:+.1f} pp vs Naive")
     with bm4:
         st.metric("Calibrated Threshold (τ)", f"{similarity_threshold}")
 
@@ -563,13 +562,13 @@ with tab_benchmarks:
     with st.expander("🔍 Error Analysis: Why Semantic Matching Beats Naive Keywords", expanded=True):
         st.markdown(
             """
-            | Test Pair | Ground Truth | Naive Keyword Result | Proposed SBERT Pipeline | Why Semantic ML Wins |
+            | Test Pair | Ground Truth | Naive Keyword Result | Proposed normalization + similarity | Why Semantic ML Wins |
             | :--- | :---: | :---: | :---: | :--- |
             | `ML` ↔ `Machine Learning` | **Match** | ❌ False Negative | ✅ True Positive | Resolves acronyms via canonical taxonomy mapping |
             | `K8s` ↔ `Kubernetes` | **Match** | ❌ False Negative | ✅ True Positive | Decodes abbreviation to standardized concept |
             | `PyTorch` ↔ `Deep Learning` | **Match** | ❌ False Negative | ✅ True Positive | Semantic embeddings capture domain relationship |
-            | `Docker` ↔ `Containerization` | **Match** | ❌ False Negative | ✅ True Positive | SBERT captures synonym semantic proximity ($\tau > 0.75$) |
-            | `Java` ↔ `JavaScript` | **No Match** | ⚠️ False Positive (`Java` in `JavaScript`) | ✅ True Negative | Dense token vectors recognize distinct programming languages |
+            | `Docker` ↔ `Containerization` | **Match** | ❌ False Negative | ✅ True Positive | Similarity matcher scores this curated pair above the selected threshold |
+            | `Java` ↔ `JavaScript` | **No Match** | ⚠️ False Positive (`Java` in `JavaScript`) | ✅ True Negative | Taxonomy normalization and similarity distinguish these terms in this benchmark |
             """
         )
 
