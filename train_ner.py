@@ -115,8 +115,9 @@ def train_model(
             nlp = spacy.blank("en")
             print("Initialized blank English pipeline")
 
-        # Get or add NER pipeline component
-        if "ner" not in nlp.pipe_names:
+        # Get or add NER pipeline component and remember whether it existed.
+        had_ner = "ner" in nlp.pipe_names
+        if not had_ner:
             ner = nlp.add_pipe("ner", last=True)
         else:
             ner = nlp.get_pipe("ner")
@@ -150,7 +151,7 @@ def train_model(
 
         other_pipes = [pipe for pipe in nlp.pipe_names if pipe != "ner"]
         with nlp.disable_pipes(*other_pipes):
-            optimizer = nlp.initialize() if "ner" not in nlp.pipe_names else nlp.resume_training()
+            optimizer = nlp.resume_training() if had_ner else nlp.initialize()
             print(f"Training records: {len(train_examples)} | Validation records: {len(dev_examples)} | Test records: {len(test_examples)}")
             print(f"Beginning training across {epochs} epochs...")
             for epoch in range(1, epochs + 1):
